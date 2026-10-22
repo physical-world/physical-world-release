@@ -1,0 +1,21 @@
+defaults:
+  - override hydra/job_logging: disabled
+  - _self_
+
+output: logs/collection/pusht_context
+checkpoint: checkpoints/pusht/pusht_ppo.pt
+cog_seeds: [5157, 5190, 5158, 5170, 5210, 5183, 5228, 5246]
+clean_episodes_per_dynamics: 5
+noise_sigmas_px: [0.1, 0.3, 0.5, 1.0, 1.5]
+noise_repeats: 1
+# Each episode index uses the same reset and noise seeds across all CoGs.
+reset_seed_base: 903000
+noise_seed_base: 904000
+max_steps: 300
+stop_on_success: false
+image_size: 224
+device: cpu
+hydra:
+  run:
+    dir: .
+  output_subdir: null

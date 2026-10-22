@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: beerpong_prefix_context
+  - override training: beerpong_prefix_context
+  - _self_

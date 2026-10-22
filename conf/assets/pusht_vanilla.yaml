@@ -1,0 +1,5 @@
+# Bound PushT Vanilla paper assets; paths are relative to the repository root.
+checkpoint: checkpoints/pusht/vanilla/next_frame_model.pth
+checkpoint_config: checkpoints/pusht/vanilla/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+model_config: conf/models/pusht_vanilla.yaml

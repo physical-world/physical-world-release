@@ -1,0 +1,5 @@
+# Bound PushT terminal-padded Long History paper assets.
+checkpoint: checkpoints/pusht/long_history/next_frame_model.pth
+checkpoint_config: checkpoints/pusht/long_history/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+model_config: conf/models/pusht_long_history.yaml

@@ -1,0 +1,11 @@
+seed: 0
+epochs: 20
+batch_size: 48
+num_workers: 8
+predictor_lr: 0.0005
+action_encoder_lr: 0.0005
+encoder_lr: 0.00001
+decoder_lr: 0.0003
+mixed_precision: bf16
+# The bound legacy TSWM does not clip gradients.
+gradient_clip: .inf

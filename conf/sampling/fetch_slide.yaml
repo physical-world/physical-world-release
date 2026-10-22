@@ -1,0 +1,16 @@
+target:
+  nonplanning:
+    frameskip: 5
+    fixed_horizon_wm_tokens: 5
+    minimum_episode_length: 20
+  planning:
+    frameskip: 5
+    minimum_episode_length: 20
+    required_terminal_reason: settled
+    tail_alignment_limit_m: 0.001
+    retraction_protocol: fetch_slide_wthe.retraction.v3
+context:
+  ctx_length: 60
+  ctx_frameskip: 5
+  min_episode_length: 40
+  fixed_start: 0

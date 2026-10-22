@@ -1,0 +1,5 @@
+# Bound temporal-straightening context protocol uses one fixed window per episode.
+eval:
+  fixed_horizon_windows_per_episode: 1
+  seed: 42
+  rollout_init_ctx: 3

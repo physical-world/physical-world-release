@@ -1,0 +1,5 @@
+# Compose the existing training workflow with bound Privileged Physics assets.
+defaults:
+  - train
+  - override assets@_global_: pusht_privileged_physics
+  - _self_

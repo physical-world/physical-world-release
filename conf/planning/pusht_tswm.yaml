@@ -1,0 +1,11 @@
+# Bound TSWM context protocol uses terminal projected-latent MSE, alpha=1.
+plan:
+  seed: 99
+  objective:
+    alpha: 1
+  planner:
+    sub_planner:
+      num_samples: 300
+      topk: 30
+      opt_steps: 30
+      final_selection: mean

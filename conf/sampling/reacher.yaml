@@ -1,0 +1,12 @@
+target:
+  nonplanning: &target
+    frameskip: 5
+    goal_H: 5
+    planning_num_hist: 1
+    minimum_episode_length: 26
+  planning: *target
+context:
+  ctx_length: 60
+  ctx_frameskip: 5
+  min_episode_length: 60
+  fixed_start: null

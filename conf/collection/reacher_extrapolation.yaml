@@ -1,0 +1,23 @@
+defaults:
+  - override hydra/job_logging: disabled
+  - _self_
+
+output: logs/collection/reacher_extrapolation.zarr
+reference_collection: data/reacher/reacher_d_random_3k_v4.zarr
+parameter: joint1_damping
+bins:
+  - [0.0, 0.005]
+  - [0.005, 0.01]
+  - [0.01, 0.015]
+  - [0.015, 0.02]
+  - [0.02, 0.025]
+  - [0.025, 0.03]
+values_per_bin: 15
+episodes_per_dynamics: 5
+seed: 20260924
+length: 100
+image_size: 224
+hydra:
+  run:
+    dir: .
+  output_subdir: null

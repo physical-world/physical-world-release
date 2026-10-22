@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: pusht_context
+  - override training: pusht_context
+  - _self_

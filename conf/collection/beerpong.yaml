@@ -1,0 +1,11 @@
+defaults:
+  - override hydra/job_logging: disabled
+  - _self_
+
+output: logs/collection/beerpong.zarr
+n_dynamics: 150
+episodes_per_dynamics: 60
+hydra:
+  run:
+    dir: .
+  output_subdir: null

@@ -1,0 +1,7 @@
+defaults:
+  - estimator
+  - _self_
+manifest: data/fetch_slide/fetch_slide_friction_density_mass_xy_36k_v2.zarr
+epochs: 5
+environment: fetch_slide
+model_config: conf/models/fetch_slide_context.yaml

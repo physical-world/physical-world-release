@@ -1,0 +1,5 @@
+# Bound PushT Context bound paper assets and recorded normalization.
+checkpoint: checkpoints/pusht/context/next_frame_model.pth
+checkpoint_config: checkpoints/pusht/context/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+model_config: conf/models/pusht_context.yaml

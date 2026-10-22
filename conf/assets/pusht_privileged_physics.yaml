@@ -1,0 +1,5 @@
+# Bound PushT Privileged Physics epoch10 assets and recorded normalization.
+checkpoint: checkpoints/pusht/privileged_physics/next_frame_model.pth
+checkpoint_config: checkpoints/pusht/privileged_physics/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+model_config: conf/models/pusht_privileged_physics.yaml

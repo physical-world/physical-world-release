@@ -1,0 +1,5 @@
+# Bound damping-only Reacher Context Prefix epoch12 (current paper).
+checkpoint: checkpoints/reacher/prefix_context/next_frame_model.pth
+checkpoint_config: checkpoints/reacher/prefix_context/next_frame_model_config.yaml
+manifest: data/reacher/reacher_d_random_3k_v4.zarr
+model_config: conf/models/reacher_prefix_context.yaml

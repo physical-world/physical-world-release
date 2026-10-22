@@ -1,0 +1,5 @@
+# Bound BeerPong aligned-v2 epoch5 assets.
+checkpoint: checkpoints/beerpong/tswm/next_frame_model.pth
+checkpoint_config: checkpoints/beerpong/tswm/next_frame_model_config.yaml
+manifest: data/beerpong/beerpong_damping_9k_v2.zarr
+model_config: conf/models/beerpong_tswm.yaml

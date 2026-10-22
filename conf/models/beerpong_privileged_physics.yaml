@@ -1,0 +1,47 @@
+img_size: 224
+frameskip: 15
+action_emb_dim: 10
+proprio_emb_dim: 64
+num_hist: 3
+num_pred: 1
+encoder:
+  name: dinov2_vits14
+  feature_key: x_norm_patchtokens
+action_encoder:
+  num_frames: 1
+  tubelet_size: 1
+  use_3d_pos: false
+proprio_encoder:
+  num_frames: 1
+  tubelet_size: 1
+  use_3d_pos: false
+decoder:
+  channel: 384
+  n_embed: 2048
+  n_res_block: 4
+  n_res_channel: 128
+  quantize: false
+predictor:
+  depth: 6
+  heads: 16
+  mlp_dim: 2048
+  dropout: 0.1
+  emb_dropout: 0
+  pool: mean
+model:
+  image_size: 224
+  num_hist: 3
+  num_pred: 1
+  train_encoder: false
+  train_predictor: true
+  train_decoder: true
+  proprio_loss_weight: 0.5
+env:
+  name: beerpong_damping
+  dataset:
+    proprio_mode: damping
+    use_ctx: false
+    ctx_length: 180
+    ctx_frameskip: 15
+training:
+  straighten: aggcos1e-1

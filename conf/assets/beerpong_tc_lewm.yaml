@@ -1,0 +1,5 @@
+checkpoint: checkpoints/beerpong/tc_lewm/next_frame_model.pt
+checkpoint_config: checkpoints/beerpong/tc_lewm/next_frame_model_config.yaml
+manifest: data/beerpong/beerpong_damping_9k_v2.zarr
+decoder: checkpoints/beerpong/tc_lewm/next_frame_decoder.pt
+model_config: conf/models/beerpong_tc_lewm.yaml

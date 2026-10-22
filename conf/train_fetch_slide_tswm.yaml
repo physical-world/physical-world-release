@@ -1,0 +1,7 @@
+defaults:
+  - train_tswm
+  - override assets@_global_: fetch_slide_tswm
+  - _self_
+
+training:
+  epochs: 5

@@ -1,0 +1,1523 @@
+{
+  "ctx_set_hash": "87cb6335ecac344847889cbc3cb9be5cb138c2b0270c6c55cae4786e864f758b",
+  "data_identity": "4ebad14c6428c7e282449821abfe2f80daaac1a4c373e90e3d75763865dccd54",
+  "environment": "pusht",
+  "geometry": {
+    "ctx_frameskip": 5,
+    "ctx_length": 60,
+    "fixed_start": null,
+    "min_episode_length": 60
+  },
+  "protocols": {
+    "fixed_horizon": [
+      {
+        "donor": 14630,
+        "start": 98,
+        "target": 14612
+      },
+      {
+        "donor": 14800,
+        "start": 56,
+        "target": 14755
+      },
+      {
+        "donor": 13704,
+        "start": 33,
+        "target": 13718
+      },
+      {
+        "donor": 14982,
+        "start": 92,
+        "target": 14960
+      },
+      {
+        "donor": 14178,
+        "start": 21,
+        "target": 14161
+      },
+      {
+        "donor": 14534,
+        "start": 159,
+        "target": 14536
+      },
+      {
+        "donor": 13878,
+        "start": 28,
+        "target": 13863
+      },
+      {
+        "donor": 13820,
+        "start": 86,
+        "target": 13830
+      },
+      {
+        "donor": 15093,
+        "start": 88,
+        "target": 15142
+      },
+      {
+        "donor": 14080,
+        "start": 38,
+        "target": 14110
+      },
+      {
+        "donor": 14398,
+        "start": 40,
+        "target": 14401
+      },
+      {
+        "donor": 14723,
+        "start": 68,
+        "target": 14664
+      },
+      {
+        "donor": 14852,
+        "start": 20,
+        "target": 14871
+      },
+      {
+        "donor": 14027,
+        "start": 102,
+        "target": 14008
+      },
+      {
+        "donor": 14274,
+        "start": 28,
+        "target": 14244
+      },
+      {
+        "donor": 14618,
+        "start": 21,
+        "target": 14577
+      },
+      {
+        "donor": 14836,
+        "start": 77,
+        "target": 14793
+      },
+      {
+        "donor": 13704,
+        "start": 25,
+        "target": 13639
+      },
+      {
+        "donor": 14981,
+        "start": 21,
+        "target": 15044
+      },
+      {
+        "donor": 14206,
+        "start": 44,
+        "target": 14154
+      },
+      {
+        "donor": 14455,
+        "start": 34,
+        "target": 14508
+      },
+      {
+        "donor": 13885,
+        "start": 60,
+        "target": 13883
+      },
+      {
+        "donor": 13776,
+        "start": 34,
+        "target": 13751
+      },
+      {
+        "donor": 15055,
+        "start": 22,
+        "target": 15076
+      },
+      {
+        "donor": 14070,
+        "start": 137,
+        "target": 14112
+      },
+      {
+        "donor": 14415,
+        "start": 34,
+        "target": 14382
+      },
+      {
+        "donor": 14654,
+        "start": 65,
+        "target": 14693
+      },
+      {
+        "donor": 14864,
+        "start": 42,
+        "target": 14908
+      },
+      {
+        "donor": 14014,
+        "start": 57,
+        "target": 13978
+      },
+      {
+        "donor": 14269,
+        "start": 24,
+        "target": 14322
+      },
+      {
+        "donor": 14633,
+        "start": 138,
+        "target": 14606
+      },
+      {
+        "donor": 14781,
+        "start": 39,
+        "target": 14844
+      },
+      {
+        "donor": 13685,
+        "start": 109,
+        "target": 13677
+      },
+      {
+        "donor": 15035,
+        "start": 208,
+        "target": 15045
+      },
+      {
+        "donor": 14220,
+        "start": 206,
+        "target": 14185
+      },
+      {
+        "donor": 14446,
+        "start": 35,
+        "target": 14524
+      },
+      {
+        "donor": 13881,
+        "start": 27,
+        "target": 13934
+      },
+      {
+        "donor": 13775,
+        "start": 31,
+        "target": 13766
+      },
+      {
+        "donor": 15148,
+        "start": 207,
+        "target": 15149
+      },
+      {
+        "donor": 14078,
+        "start": 25,
+        "target": 14044
+      },
+      {
+        "donor": 14367,
+        "start": 43,
+        "target": 14348
+      },
+      {
+        "donor": 14720,
+        "start": 49,
+        "target": 14690
+      },
+      {
+        "donor": 14893,
+        "start": 20,
+        "target": 14877
+      },
+      {
+        "donor": 14038,
+        "start": 149,
+        "target": 13982
+      },
+      {
+        "donor": 14247,
+        "start": 86,
+        "target": 14318
+      },
+      {
+        "donor": 14593,
+        "start": 31,
+        "target": 14550
+      },
+      {
+        "donor": 14760,
+        "start": 75,
+        "target": 14815
+      },
+      {
+        "donor": 13638,
+        "start": 22,
+        "target": 13675
+      },
+      {
+        "donor": 15034,
+        "start": 50,
+        "target": 15047
+      },
+      {
+        "donor": 14234,
+        "start": 53,
+        "target": 14159
+      },
+      {
+        "donor": 14473,
+        "start": 21,
+        "target": 14479
+      },
+      {
+        "donor": 13871,
+        "start": 37,
+        "target": 13899
+      },
+      {
+        "donor": 13773,
+        "start": 67,
+        "target": 13753
+      },
+      {
+        "donor": 15111,
+        "start": 37,
+        "target": 15105
+      },
+      {
+        "donor": 14040,
+        "start": 23,
+        "target": 14139
+      },
+      {
+        "donor": 14386,
+        "start": 24,
+        "target": 14354
+      },
+      {
+        "donor": 14679,
+        "start": 26,
+        "target": 14647
+      },
+      {
+        "donor": 14938,
+        "start": 163,
+        "target": 14916
+      },
+      {
+        "donor": 14023,
+        "start": 58,
+        "target": 13971
+      },
+      {
+        "donor": 14334,
+        "start": 121,
+        "target": 14283
+      },
+      {
+        "donor": 14547,
+        "start": 32,
+        "target": 14559
+      },
+      {
+        "donor": 14754,
+        "start": 22,
+        "target": 14805
+      },
+      {
+        "donor": 13667,
+        "start": 31,
+        "target": 13645
+      },
+      {
+        "donor": 14958,
+        "start": 41,
+        "target": 15005
+      },
+      {
+        "donor": 14191,
+        "start": 50,
+        "target": 14240
+      },
+      {
+        "donor": 14505,
+        "start": 20,
+        "target": 14504
+      },
+      {
+        "donor": 13880,
+        "start": 66,
+        "target": 13865
+      },
+      {
+        "donor": 13775,
+        "start": 27,
+        "target": 13817
+      },
+      {
+        "donor": 15124,
+        "start": 34,
+        "target": 15101
+      },
+      {
+        "donor": 14079,
+        "start": 40,
+        "target": 14124
+      },
+      {
+        "donor": 14428,
+        "start": 38,
+        "target": 14384
+      },
+      {
+        "donor": 14663,
+        "start": 27,
+        "target": 14653
+      },
+      {
+        "donor": 14920,
+        "start": 40,
+        "target": 14861
+      },
+      {
+        "donor": 13949,
+        "start": 38,
+        "target": 13980
+      },
+      {
+        "donor": 14246,
+        "start": 57,
+        "target": 14282
+      }
+    ],
+    "open_loop": [
+      {
+        "donor": 14630,
+        "start": 98,
+        "target": 14612
+      },
+      {
+        "donor": 14800,
+        "start": 56,
+        "target": 14755
+      },
+      {
+        "donor": 13704,
+        "start": 33,
+        "target": 13718
+      },
+      {
+        "donor": 14982,
+        "start": 92,
+        "target": 14960
+      },
+      {
+        "donor": 14178,
+        "start": 21,
+        "target": 14161
+      },
+      {
+        "donor": 14534,
+        "start": 159,
+        "target": 14536
+      },
+      {
+        "donor": 13878,
+        "start": 28,
+        "target": 13863
+      },
+      {
+        "donor": 13820,
+        "start": 86,
+        "target": 13830
+      },
+      {
+        "donor": 15093,
+        "start": 88,
+        "target": 15142
+      },
+      {
+        "donor": 14080,
+        "start": 38,
+        "target": 14110
+      },
+      {
+        "donor": 14398,
+        "start": 40,
+        "target": 14401
+      },
+      {
+        "donor": 14723,
+        "start": 68,
+        "target": 14664
+      },
+      {
+        "donor": 14852,
+        "start": 20,
+        "target": 14871
+      },
+      {
+        "donor": 14027,
+        "start": 102,
+        "target": 14008
+      },
+      {
+        "donor": 14274,
+        "start": 28,
+        "target": 14244
+      },
+      {
+        "donor": 14618,
+        "start": 21,
+        "target": 14577
+      },
+      {
+        "donor": 14836,
+        "start": 77,
+        "target": 14793
+      },
+      {
+        "donor": 13704,
+        "start": 25,
+        "target": 13639
+      },
+      {
+        "donor": 14981,
+        "start": 21,
+        "target": 15044
+      },
+      {
+        "donor": 14206,
+        "start": 44,
+        "target": 14154
+      },
+      {
+        "donor": 14455,
+        "start": 34,
+        "target": 14508
+      },
+      {
+        "donor": 13885,
+        "start": 60,
+        "target": 13883
+      },
+      {
+        "donor": 13776,
+        "start": 34,
+        "target": 13751
+      },
+      {
+        "donor": 15055,
+        "start": 22,
+        "target": 15076
+      },
+      {
+        "donor": 14070,
+        "start": 137,
+        "target": 14112
+      },
+      {
+        "donor": 14415,
+        "start": 34,
+        "target": 14382
+      },
+      {
+        "donor": 14654,
+        "start": 65,
+        "target": 14693
+      },
+      {
+        "donor": 14864,
+        "start": 42,
+        "target": 14908
+      },
+      {
+        "donor": 14014,
+        "start": 57,
+        "target": 13978
+      },
+      {
+        "donor": 14269,
+        "start": 24,
+        "target": 14322
+      },
+      {
+        "donor": 14633,
+        "start": 138,
+        "target": 14606
+      },
+      {
+        "donor": 14781,
+        "start": 39,
+        "target": 14844
+      },
+      {
+        "donor": 13685,
+        "start": 109,
+        "target": 13677
+      },
+      {
+        "donor": 15035,
+        "start": 208,
+        "target": 15045
+      },
+      {
+        "donor": 14220,
+        "start": 206,
+        "target": 14185
+      },
+      {
+        "donor": 14446,
+        "start": 35,
+        "target": 14524
+      },
+      {
+        "donor": 13881,
+        "start": 27,
+        "target": 13934
+      },
+      {
+        "donor": 13775,
+        "start": 31,
+        "target": 13766
+      },
+      {
+        "donor": 15148,
+        "start": 207,
+        "target": 15149
+      },
+      {
+        "donor": 14078,
+        "start": 25,
+        "target": 14044
+      },
+      {
+        "donor": 14367,
+        "start": 43,
+        "target": 14348
+      },
+      {
+        "donor": 14720,
+        "start": 49,
+        "target": 14690
+      },
+      {
+        "donor": 14893,
+        "start": 20,
+        "target": 14877
+      },
+      {
+        "donor": 14038,
+        "start": 149,
+        "target": 13982
+      },
+      {
+        "donor": 14247,
+        "start": 86,
+        "target": 14318
+      },
+      {
+        "donor": 14593,
+        "start": 31,
+        "target": 14550
+      },
+      {
+        "donor": 14760,
+        "start": 75,
+        "target": 14815
+      },
+      {
+        "donor": 13638,
+        "start": 22,
+        "target": 13675
+      },
+      {
+        "donor": 15034,
+        "start": 50,
+        "target": 15047
+      },
+      {
+        "donor": 14234,
+        "start": 53,
+        "target": 14159
+      },
+      {
+        "donor": 14473,
+        "start": 21,
+        "target": 14479
+      },
+      {
+        "donor": 13871,
+        "start": 37,
+        "target": 13899
+      },
+      {
+        "donor": 13773,
+        "start": 67,
+        "target": 13753
+      },
+      {
+        "donor": 15111,
+        "start": 37,
+        "target": 15105
+      },
+      {
+        "donor": 14040,
+        "start": 23,
+        "target": 14139
+      },
+      {
+        "donor": 14386,
+        "start": 24,
+        "target": 14354
+      },
+      {
+        "donor": 14679,
+        "start": 26,
+        "target": 14647
+      },
+      {
+        "donor": 14938,
+        "start": 163,
+        "target": 14916
+      },
+      {
+        "donor": 14023,
+        "start": 58,
+        "target": 13971
+      },
+      {
+        "donor": 14334,
+        "start": 121,
+        "target": 14283
+      },
+      {
+        "donor": 14547,
+        "start": 32,
+        "target": 14559
+      },
+      {
+        "donor": 14754,
+        "start": 22,
+        "target": 14805
+      },
+      {
+        "donor": 13667,
+        "start": 31,
+        "target": 13645
+      },
+      {
+        "donor": 14958,
+        "start": 41,
+        "target": 15005
+      },
+      {
+        "donor": 14191,
+        "start": 50,
+        "target": 14240
+      },
+      {
+        "donor": 14505,
+        "start": 20,
+        "target": 14504
+      },
+      {
+        "donor": 13880,
+        "start": 66,
+        "target": 13865
+      },
+      {
+        "donor": 13775,
+        "start": 27,
+        "target": 13817
+      },
+      {
+        "donor": 15124,
+        "start": 34,
+        "target": 15101
+      },
+      {
+        "donor": 14079,
+        "start": 40,
+        "target": 14124
+      },
+      {
+        "donor": 14428,
+        "start": 38,
+        "target": 14384
+      },
+      {
+        "donor": 14663,
+        "start": 27,
+        "target": 14653
+      },
+      {
+        "donor": 14920,
+        "start": 40,
+        "target": 14861
+      },
+      {
+        "donor": 13949,
+        "start": 38,
+        "target": 13980
+      },
+      {
+        "donor": 14246,
+        "start": 57,
+        "target": 14282
+      }
+    ],
+    "planning": [
+      {
+        "donor": 14630,
+        "start": 98,
+        "target": 14612
+      },
+      {
+        "donor": 14800,
+        "start": 56,
+        "target": 14755
+      },
+      {
+        "donor": 13704,
+        "start": 33,
+        "target": 13718
+      },
+      {
+        "donor": 14982,
+        "start": 92,
+        "target": 14960
+      },
+      {
+        "donor": 14178,
+        "start": 21,
+        "target": 14161
+      },
+      {
+        "donor": 14534,
+        "start": 159,
+        "target": 14536
+      },
+      {
+        "donor": 13878,
+        "start": 28,
+        "target": 13863
+      },
+      {
+        "donor": 13820,
+        "start": 86,
+        "target": 13830
+      },
+      {
+        "donor": 15093,
+        "start": 88,
+        "target": 15142
+      },
+      {
+        "donor": 14080,
+        "start": 38,
+        "target": 14110
+      },
+      {
+        "donor": 14398,
+        "start": 40,
+        "target": 14401
+      },
+      {
+        "donor": 14723,
+        "start": 68,
+        "target": 14664
+      },
+      {
+        "donor": 14852,
+        "start": 20,
+        "target": 14871
+      },
+      {
+        "donor": 14027,
+        "start": 102,
+        "target": 14008
+      },
+      {
+        "donor": 14274,
+        "start": 28,
+        "target": 14244
+      },
+      {
+        "donor": 14618,
+        "start": 21,
+        "target": 14577
+      },
+      {
+        "donor": 14836,
+        "start": 77,
+        "target": 14793
+      },
+      {
+        "donor": 13704,
+        "start": 25,
+        "target": 13639
+      },
+      {
+        "donor": 14981,
+        "start": 21,
+        "target": 15044
+      },
+      {
+        "donor": 14206,
+        "start": 44,
+        "target": 14154
+      },
+      {
+        "donor": 14455,
+        "start": 34,
+        "target": 14508
+      },
+      {
+        "donor": 13885,
+        "start": 60,
+        "target": 13883
+      },
+      {
+        "donor": 13776,
+        "start": 34,
+        "target": 13751
+      },
+      {
+        "donor": 15055,
+        "start": 22,
+        "target": 15076
+      },
+      {
+        "donor": 14070,
+        "start": 137,
+        "target": 14112
+      },
+      {
+        "donor": 14415,
+        "start": 34,
+        "target": 14382
+      },
+      {
+        "donor": 14654,
+        "start": 65,
+        "target": 14693
+      },
+      {
+        "donor": 14864,
+        "start": 42,
+        "target": 14908
+      },
+      {
+        "donor": 14014,
+        "start": 57,
+        "target": 13978
+      },
+      {
+        "donor": 14269,
+        "start": 24,
+        "target": 14322
+      },
+      {
+        "donor": 14633,
+        "start": 138,
+        "target": 14606
+      },
+      {
+        "donor": 14781,
+        "start": 39,
+        "target": 14844
+      },
+      {
+        "donor": 13685,
+        "start": 109,
+        "target": 13677
+      },
+      {
+        "donor": 15035,
+        "start": 208,
+        "target": 15045
+      },
+      {
+        "donor": 14220,
+        "start": 206,
+        "target": 14185
+      },
+      {
+        "donor": 14446,
+        "start": 35,
+        "target": 14524
+      },
+      {
+        "donor": 13881,
+        "start": 27,
+        "target": 13934
+      },
+      {
+        "donor": 13775,
+        "start": 31,
+        "target": 13766
+      },
+      {
+        "donor": 15148,
+        "start": 207,
+        "target": 15149
+      },
+      {
+        "donor": 14078,
+        "start": 25,
+        "target": 14044
+      },
+      {
+        "donor": 14367,
+        "start": 43,
+        "target": 14348
+      },
+      {
+        "donor": 14720,
+        "start": 49,
+        "target": 14690
+      },
+      {
+        "donor": 14893,
+        "start": 20,
+        "target": 14877
+      },
+      {
+        "donor": 14038,
+        "start": 149,
+        "target": 13982
+      },
+      {
+        "donor": 14247,
+        "start": 86,
+        "target": 14318
+      },
+      {
+        "donor": 14593,
+        "start": 31,
+        "target": 14550
+      },
+      {
+        "donor": 14760,
+        "start": 75,
+        "target": 14815
+      },
+      {
+        "donor": 13638,
+        "start": 22,
+        "target": 13675
+      },
+      {
+        "donor": 15034,
+        "start": 50,
+        "target": 15047
+      },
+      {
+        "donor": 14234,
+        "start": 53,
+        "target": 14159
+      },
+      {
+        "donor": 14473,
+        "start": 21,
+        "target": 14479
+      },
+      {
+        "donor": 13871,
+        "start": 37,
+        "target": 13899
+      },
+      {
+        "donor": 13773,
+        "start": 67,
+        "target": 13753
+      },
+      {
+        "donor": 15111,
+        "start": 37,
+        "target": 15105
+      },
+      {
+        "donor": 14040,
+        "start": 23,
+        "target": 14139
+      },
+      {
+        "donor": 14386,
+        "start": 24,
+        "target": 14354
+      },
+      {
+        "donor": 14679,
+        "start": 26,
+        "target": 14647
+      },
+      {
+        "donor": 14938,
+        "start": 163,
+        "target": 14916
+      },
+      {
+        "donor": 14023,
+        "start": 58,
+        "target": 13971
+      },
+      {
+        "donor": 14334,
+        "start": 121,
+        "target": 14283
+      },
+      {
+        "donor": 14547,
+        "start": 32,
+        "target": 14559
+      },
+      {
+        "donor": 14754,
+        "start": 22,
+        "target": 14805
+      },
+      {
+        "donor": 13667,
+        "start": 31,
+        "target": 13645
+      },
+      {
+        "donor": 14958,
+        "start": 41,
+        "target": 15005
+      },
+      {
+        "donor": 14191,
+        "start": 50,
+        "target": 14240
+      },
+      {
+        "donor": 14505,
+        "start": 20,
+        "target": 14504
+      },
+      {
+        "donor": 13880,
+        "start": 66,
+        "target": 13865
+      },
+      {
+        "donor": 13775,
+        "start": 27,
+        "target": 13817
+      },
+      {
+        "donor": 15124,
+        "start": 34,
+        "target": 15101
+      },
+      {
+        "donor": 14079,
+        "start": 40,
+        "target": 14124
+      },
+      {
+        "donor": 14428,
+        "start": 38,
+        "target": 14384
+      },
+      {
+        "donor": 14663,
+        "start": 27,
+        "target": 14653
+      },
+      {
+        "donor": 14920,
+        "start": 40,
+        "target": 14861
+      },
+      {
+        "donor": 13949,
+        "start": 38,
+        "target": 13980
+      },
+      {
+        "donor": 14246,
+        "start": 57,
+        "target": 14282
+      }
+    ],
+    "teacher_forced": [
+      {
+        "donor": 14630,
+        "start": 98,
+        "target": 14612
+      },
+      {
+        "donor": 14800,
+        "start": 56,
+        "target": 14755
+      },
+      {
+        "donor": 13704,
+        "start": 33,
+        "target": 13718
+      },
+      {
+        "donor": 14982,
+        "start": 92,
+        "target": 14960
+      },
+      {
+        "donor": 14178,
+        "start": 21,
+        "target": 14161
+      },
+      {
+        "donor": 14534,
+        "start": 159,
+        "target": 14536
+      },
+      {
+        "donor": 13878,
+        "start": 28,
+        "target": 13863
+      },
+      {
+        "donor": 13820,
+        "start": 86,
+        "target": 13830
+      },
+      {
+        "donor": 15093,
+        "start": 88,
+        "target": 15142
+      },
+      {
+        "donor": 14080,
+        "start": 38,
+        "target": 14110
+      },
+      {
+        "donor": 14398,
+        "start": 40,
+        "target": 14401
+      },
+      {
+        "donor": 14723,
+        "start": 68,
+        "target": 14664
+      },
+      {
+        "donor": 14852,
+        "start": 20,
+        "target": 14871
+      },
+      {
+        "donor": 14027,
+        "start": 102,
+        "target": 14008
+      },
+      {
+        "donor": 14274,
+        "start": 28,
+        "target": 14244
+      },
+      {
+        "donor": 14618,
+        "start": 21,
+        "target": 14577
+      },
+      {
+        "donor": 14836,
+        "start": 77,
+        "target": 14793
+      },
+      {
+        "donor": 13704,
+        "start": 25,
+        "target": 13639
+      },
+      {
+        "donor": 14981,
+        "start": 21,
+        "target": 15044
+      },
+      {
+        "donor": 14206,
+        "start": 44,
+        "target": 14154
+      },
+      {
+        "donor": 14455,
+        "start": 34,
+        "target": 14508
+      },
+      {
+        "donor": 13885,
+        "start": 60,
+        "target": 13883
+      },
+      {
+        "donor": 13776,
+        "start": 34,
+        "target": 13751
+      },
+      {
+        "donor": 15055,
+        "start": 22,
+        "target": 15076
+      },
+      {
+        "donor": 14070,
+        "start": 137,
+        "target": 14112
+      },
+      {
+        "donor": 14415,
+        "start": 34,
+        "target": 14382
+      },
+      {
+        "donor": 14654,
+        "start": 65,
+        "target": 14693
+      },
+      {
+        "donor": 14864,
+        "start": 42,
+        "target": 14908
+      },
+      {
+        "donor": 14014,
+        "start": 57,
+        "target": 13978
+      },
+      {
+        "donor": 14269,
+        "start": 24,
+        "target": 14322
+      },
+      {
+        "donor": 14633,
+        "start": 138,
+        "target": 14606
+      },
+      {
+        "donor": 14781,
+        "start": 39,
+        "target": 14844
+      },
+      {
+        "donor": 13685,
+        "start": 109,
+        "target": 13677
+      },
+      {
+        "donor": 15035,
+        "start": 208,
+        "target": 15045
+      },
+      {
+        "donor": 14220,
+        "start": 206,
+        "target": 14185
+      },
+      {
+        "donor": 14446,
+        "start": 35,
+        "target": 14524
+      },
+      {
+        "donor": 13881,
+        "start": 27,
+        "target": 13934
+      },
+      {
+        "donor": 13775,
+        "start": 31,
+        "target": 13766
+      },
+      {
+        "donor": 15148,
+        "start": 207,
+        "target": 15149
+      },
+      {
+        "donor": 14078,
+        "start": 25,
+        "target": 14044
+      },
+      {
+        "donor": 14367,
+        "start": 43,
+        "target": 14348
+      },
+      {
+        "donor": 14720,
+        "start": 49,
+        "target": 14690
+      },
+      {
+        "donor": 14893,
+        "start": 20,
+        "target": 14877
+      },
+      {
+        "donor": 14038,
+        "start": 149,
+        "target": 13982
+      },
+      {
+        "donor": 14247,
+        "start": 86,
+        "target": 14318
+      },
+      {
+        "donor": 14593,
+        "start": 31,
+        "target": 14550
+      },
+      {
+        "donor": 14760,
+        "start": 75,
+        "target": 14815
+      },
+      {
+        "donor": 13638,
+        "start": 22,
+        "target": 13675
+      },
+      {
+        "donor": 15034,
+        "start": 50,
+        "target": 15047
+      },
+      {
+        "donor": 14234,
+        "start": 53,
+        "target": 14159
+      },
+      {
+        "donor": 14473,
+        "start": 21,
+        "target": 14479
+      },
+      {
+        "donor": 13871,
+        "start": 37,
+        "target": 13899
+      },
+      {
+        "donor": 13773,
+        "start": 67,
+        "target": 13753
+      },
+      {
+        "donor": 15111,
+        "start": 37,
+        "target": 15105
+      },
+      {
+        "donor": 14040,
+        "start": 23,
+        "target": 14139
+      },
+      {
+        "donor": 14386,
+        "start": 24,
+        "target": 14354
+      },
+      {
+        "donor": 14679,
+        "start": 26,
+        "target": 14647
+      },
+      {
+        "donor": 14938,
+        "start": 163,
+        "target": 14916
+      },
+      {
+        "donor": 14023,
+        "start": 58,
+        "target": 13971
+      },
+      {
+        "donor": 14334,
+        "start": 121,
+        "target": 14283
+      },
+      {
+        "donor": 14547,
+        "start": 32,
+        "target": 14559
+      },
+      {
+        "donor": 14754,
+        "start": 22,
+        "target": 14805
+      },
+      {
+        "donor": 13667,
+        "start": 31,
+        "target": 13645
+      },
+      {
+        "donor": 14958,
+        "start": 41,
+        "target": 15005
+      },
+      {
+        "donor": 14191,
+        "start": 50,
+        "target": 14240
+      },
+      {
+        "donor": 14505,
+        "start": 20,
+        "target": 14504
+      },
+      {
+        "donor": 13880,
+        "start": 66,
+        "target": 13865
+      },
+      {
+        "donor": 13775,
+        "start": 27,
+        "target": 13817
+      },
+      {
+        "donor": 15124,
+        "start": 34,
+        "target": 15101
+      },
+      {
+        "donor": 14079,
+        "start": 40,
+        "target": 14124
+      },
+      {
+        "donor": 14428,
+        "start": 38,
+        "target": 14384
+      },
+      {
+        "donor": 14663,
+        "start": 27,
+        "target": 14653
+      },
+      {
+        "donor": 14920,
+        "start": 40,
+        "target": 14861
+      },
+      {
+        "donor": 13949,
+        "start": 38,
+        "target": 13980
+      },
+      {
+        "donor": 14246,
+        "start": 57,
+        "target": 14282
+      }
+    ]
+  },
+  "split": "validation",
+  "split_identity": "385cafd4a9bf970290050c79308b38ca63ea4bc984ed99fb627623e1de671304"
+}

@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: fetch_slide_context
+  - override training: fetch_slide_context
+  - _self_

@@ -1,0 +1,13 @@
+defaults:
+  - override hydra/job_logging: disabled
+  - _self_
+
+output: logs/collection/reacher.zarr
+length: 100
+image_size: 224
+n_dynamics: 150
+seed: 3073
+hydra:
+  run:
+    dir: .
+  output_subdir: null

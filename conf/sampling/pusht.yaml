@@ -1,0 +1,16 @@
+# Method-independent recorded target and donor geometry.
+target:
+  nonplanning: &target
+    frameskip: 5
+    goal_H: 3
+    planning_num_hist: 1
+    minimum_episode_length: 16
+    filter_nontrivial_targets: true
+    nontrivial_min_block_displacement: 20.0
+    nontrivial_min_block_angle_rad: 0.3490658503988659
+  planning: *target
+context:
+  ctx_length: 60
+  ctx_frameskip: 5
+  min_episode_length: 60
+  fixed_start: null

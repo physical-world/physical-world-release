@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: fetch_slide_privileged_physics
+  - override training: fetch_slide
+  - _self_

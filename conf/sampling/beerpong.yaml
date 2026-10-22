@@ -1,0 +1,17 @@
+target:
+  nonplanning:
+    frameskip: 15
+    fixed_horizon: 5
+    rollout_init_ctx: 3
+    minimum_episode_length: 301
+  planning:
+    frameskip: 15
+    planning_num_hist: 1
+    minimum_episode_length: 301
+    required_outcome: final_in_cup
+    gt_replay_endpoint_limit_m: 0.001
+context:
+  ctx_length: 180
+  ctx_frameskip: 15
+  min_episode_length: 180
+  fixed_start: 0

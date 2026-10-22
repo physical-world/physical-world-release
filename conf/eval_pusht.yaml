@@ -1,0 +1,37 @@
+# Paper checkpoint evaluation only; no training or optimizer restoration.
+defaults:
+  - assets@_global_: pusht_vanilla
+  - override hydra/job_logging: disabled
+  - _self_
+
+method: vanilla
+phase: nonplanning
+device: cuda
+eval_seed: 42
+plan_seed: 99
+# These files are the original paper configurations, preserved as read-only assets.
+paper_config_names:
+  nonplanning: next_frame
+  planning: planning
+paper_eval_config: checkpoints/pusht/${method}/${paper_config_names.${phase}}_eval_config.yaml
+target_manifest: null
+num_targets: null
+target_seed: ${eval_seed}
+ctx_manifest: null
+ctx_seed: ${eval_seed}
+sampling_protocol: null
+# Compatibility aliases; use the fields above for new calls.
+targets: null
+segmentation: checkpoints/pusht/segmentation.pth
+# Null selects 75 seeded targets, or all targets in an explicit manifest.
+max_targets: null
+max_batches: null
+# Explicit overrides are recorded separately from the immutable paper source.
+planning_overrides: {}
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false

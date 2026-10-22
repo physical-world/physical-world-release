@@ -1,0 +1,64 @@
+img_size: 224
+embed_dim: 192
+history_size: 3
+num_preds: 1
+model:
+  encoder:
+    size: tiny
+    patch_size: 14
+    image_size: ${img_size}
+    pretrained: false
+    use_mask_token: false
+  predictor:
+    num_frames: ${history_size}
+    input_dim: ${embed_dim}
+    hidden_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    depth: 6
+    heads: 16
+    mlp_dim: 2048
+    dim_head: 64
+    dropout: 0.1
+    emb_dropout: 0.0
+  action_encoder:
+    input_dim: 8
+    emb_dim: ${embed_dim}
+  projector:
+    input_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    hidden_dim: 2048
+    norm_fn: {}
+  pred_proj:
+    input_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    hidden_dim: 2048
+    norm_fn: {}
+optimizer:
+  type: AdamW
+  lr: 5.0e-05
+  weight_decay: 0.001
+loss:
+  sigreg:
+    weight: 0.09
+    kwargs:
+      knots: 17
+      num_proj: 1024
+trainer:
+  max_epochs: 5
+  devices: 2
+  accelerator: gpu
+  precision: bf16
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  strategy: ddp
+  sync_batchnorm: true
+loader:
+  batch_size: 64
+  num_workers: ${num_workers}
+  persistent_workers: true
+  prefetch_factor: 3
+  pin_memory: true
+num_workers: 6
+data:
+  wthe_env: fetch_slide
+  context: false

@@ -1,0 +1,32 @@
+defaults:
+  - assets: pusht_lewm
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+seed: 0
+inspection: false
+batch_size: 32
+epochs: 10
+lr: 0.0001
+num_workers: 6
+logging:
+  project: physical-lewm
+  mode: ${oc.env:WANDB_MODE,online}
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false
+
+init_from: null
+resume_from: null
+device: cuda
+decoder:
+  input_dim: 192
+  hidden_dim: 512
+  depth: 3
+  num_heads: 8
+  mlp_ratio: 4
+  image_size: 224
+  patch_size: 16

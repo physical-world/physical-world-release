@@ -1,0 +1,24 @@
+defaults:
+  - _self_
+  - override hydra/job_logging: stdout
+manifest: data/pusht/fresh_iid/manifest.json
+batch_size: 48
+num_workers: 4
+seed: 42
+learning_rate: 0.0001
+gradient_clip: 1.0
+epochs: 10
+inspection: false
+project: physical
+logging_mode: online
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false
+
+init_from: null
+resume_from: null
+environment: pusht
+model_config: conf/models/pusht_context.yaml

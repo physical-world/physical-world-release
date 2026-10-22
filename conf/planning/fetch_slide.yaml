@@ -1,0 +1,6 @@
+# Bound direct H1 search, final_selection=mean.
+seed: 42
+num_samples: 64
+topk: 8
+opt_steps: 8
+var_scale: 1.0

@@ -1,0 +1,7 @@
+defaults:
+  - eval_visual
+  - assets@_global_: fetch_slide_vanilla
+  - override hydra/job_logging: disabled
+  - _self_
+environment: fetch_slide
+masks: data/fetch_slide/fetch_slide_friction_density_mass_xy_36k_v2_mask.zarr

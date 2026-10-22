@@ -1,0 +1,1516 @@
+{
+  "data_identity": "d5171d4dc431304762434e410359fc8224da76b53e0df03a20e357f7dc0bd6ba",
+  "environment": "beerpong",
+  "protocol": {
+    "frameskip": 15,
+    "gt_replay_endpoint_limit_m": 0.001,
+    "minimum_episode_length": 301,
+    "planning_num_hist": 1,
+    "required_outcome": "final_in_cup"
+  },
+  "split": "validation",
+  "split_identity": "6a632e9856f6ea24edee81e6488f9809daa23c13ab205f9221fff5208cffb88f",
+  "target_set_hash": "bda97f4a4ccd4337b6a2f7e814b8a1737f85cb547127478bdb43318ad9dc68f0",
+  "targets": [
+    {
+      "contact_damping": 28.035655975341797,
+      "cup_body_y": -2.023193120956421,
+      "current_row": 0,
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 0,
+      "goal_ball_xyz": [
+        -0.00991036742925644,
+        -2.198284387588501,
+        0.9139376878738403
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8118553161621094,
+        7.289313793182373
+      ],
+      "gt_replay_endpoint_error_m": 1.4536094343945373e-05,
+      "source_episode": 8100,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 28.035655975341797,
+      "cup_body_y": -1.9737111330032349,
+      "current_row": 0,
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 4,
+      "goal_ball_xyz": [
+        -0.004062916152179241,
+        -2.1996991634368896,
+        0.9138971567153931
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.759512186050415,
+        6.894947052001953
+      ],
+      "gt_replay_endpoint_error_m": 1.0240669249630436e-07,
+      "source_episode": 8104,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 28.035655975341797,
+      "cup_body_y": -2.0156447887420654,
+      "current_row": 0,
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 47,
+      "goal_ball_xyz": [
+        0.04472997784614563,
+        -2.189117431640625,
+        0.9139389991760254
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9188573360443115,
+        7.459944725036621
+      ],
+      "gt_replay_endpoint_error_m": 9.431704367066192e-07,
+      "source_episode": 8147,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 28.035655975341797,
+      "cup_body_y": -2.086003303527832,
+      "current_row": 0,
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 50,
+      "goal_ball_xyz": [
+        -0.005009095184504986,
+        -2.293961763381958,
+        0.9139115214347839
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9437668323516846,
+        7.742070198059082
+      ],
+      "gt_replay_endpoint_error_m": 1.4673448898960194e-09,
+      "source_episode": 8150,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 28.035655975341797,
+      "cup_body_y": -2.0398483276367188,
+      "current_row": 0,
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 57,
+      "goal_ball_xyz": [
+        0.001301053212955594,
+        -2.2511706352233887,
+        0.913908839225769
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.841627359390259,
+        7.307322025299072
+      ],
+      "gt_replay_endpoint_error_m": 1.7147174217486603e-06,
+      "source_episode": 8157,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.722829818725586,
+      "cup_body_y": -2.164405584335327,
+      "current_row": 0,
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 2,
+      "goal_ball_xyz": [
+        -0.004711889661848545,
+        -2.38523268699646,
+        0.9139012694358826
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.940934896469116,
+        7.197725772857666
+      ],
+      "gt_replay_endpoint_error_m": 6.480659183259992e-08,
+      "source_episode": 8162,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.722829818725586,
+      "cup_body_y": -2.21077299118042,
+      "current_row": 0,
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 17,
+      "goal_ball_xyz": [
+        -0.010221368633210659,
+        -2.419947624206543,
+        0.9139105677604675
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.88525652885437,
+        6.607089996337891
+      ],
+      "gt_replay_endpoint_error_m": 1.8972902050422755e-07,
+      "source_episode": 8177,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.722829818725586,
+      "cup_body_y": -1.9068163633346558,
+      "current_row": 0,
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 23,
+      "goal_ball_xyz": [
+        -0.0045984359458088875,
+        -2.085221290588379,
+        0.9139350652694702
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.811255931854248,
+        7.745593070983887
+      ],
+      "gt_replay_endpoint_error_m": 1.1322382856974988e-07,
+      "source_episode": 8183,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.722829818725586,
+      "cup_body_y": -1.9826349020004272,
+      "current_row": 0,
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 29,
+      "goal_ball_xyz": [
+        0.018538527190685272,
+        -2.175534725189209,
+        0.9139235019683838
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9613142013549805,
+        7.837191104888916
+      ],
+      "gt_replay_endpoint_error_m": 1.73117874251045e-07,
+      "source_episode": 8189,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.722829818725586,
+      "cup_body_y": -2.0336296558380127,
+      "current_row": 0,
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 37,
+      "goal_ball_xyz": [
+        -0.004567468538880348,
+        -2.2724757194519043,
+        0.9138869047164917
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9005162715911865,
+        7.65067195892334
+      ],
+      "gt_replay_endpoint_error_m": 5.021406369815182e-08,
+      "source_episode": 8197,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 22.994426727294922,
+      "cup_body_y": -2.0962886810302734,
+      "current_row": 0,
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 6,
+      "goal_ball_xyz": [
+        0.012730568647384644,
+        -2.3086795806884766,
+        0.9139080047607422
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8809103965759277,
+        6.584491729736328
+      ],
+      "gt_replay_endpoint_error_m": 1.0031404600425633e-07,
+      "source_episode": 8226,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 22.994426727294922,
+      "cup_body_y": -2.096386194229126,
+      "current_row": 0,
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 17,
+      "goal_ball_xyz": [
+        -0.0034622966777533293,
+        -2.3357574939727783,
+        0.9138864874839783
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.814936637878418,
+        6.185661315917969
+      ],
+      "gt_replay_endpoint_error_m": 1.9334982556009505e-07,
+      "source_episode": 8237,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 22.994426727294922,
+      "cup_body_y": -2.3080570697784424,
+      "current_row": 0,
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 23,
+      "goal_ball_xyz": [
+        -0.00393689563497901,
+        -2.510263442993164,
+        0.9139161109924316
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9629766941070557,
+        6.054200649261475
+      ],
+      "gt_replay_endpoint_error_m": 1.0474927200610244e-07,
+      "source_episode": 8243,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 22.994426727294922,
+      "cup_body_y": -2.0963971614837646,
+      "current_row": 0,
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 47,
+      "goal_ball_xyz": [
+        -0.005407851189374924,
+        -2.310865879058838,
+        0.9139063358306885
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.933899402618408,
+        7.889641284942627
+      ],
+      "gt_replay_endpoint_error_m": 3.2720282078787823e-08,
+      "source_episode": 8267,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 22.994426727294922,
+      "cup_body_y": -2.2115695476531982,
+      "current_row": 0,
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 58,
+      "goal_ball_xyz": [
+        -0.006912068463861942,
+        -2.3884530067443848,
+        0.9139362573623657
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8115148544311523,
+        6.309337615966797
+      ],
+      "gt_replay_endpoint_error_m": 7.951920828170718e-06,
+      "source_episode": 8278,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.83884334564209,
+      "cup_body_y": -2.20581316947937,
+      "current_row": 0,
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 4,
+      "goal_ball_xyz": [
+        0.015058242715895176,
+        -2.407458782196045,
+        0.9139165282249451
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8052098751068115,
+        6.039680480957031
+      ],
+      "gt_replay_endpoint_error_m": 3.318634514198054e-07,
+      "source_episode": 8284,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.83884334564209,
+      "cup_body_y": -2.335308790206909,
+      "current_row": 0,
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 9,
+      "goal_ball_xyz": [
+        -0.004802456591278315,
+        -2.5533204078674316,
+        0.913903534412384
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7285640239715576,
+        6.720608711242676
+      ],
+      "gt_replay_endpoint_error_m": 6.462523152702255e-08,
+      "source_episode": 8289,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.83884334564209,
+      "cup_body_y": -2.2673187255859375,
+      "current_row": 0,
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 17,
+      "goal_ball_xyz": [
+        0.009263716638088226,
+        -2.4847023487091064,
+        0.9139040112495422
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.701247453689575,
+        7.477888584136963
+      ],
+      "gt_replay_endpoint_error_m": 7.777653505557894e-06,
+      "source_episode": 8297,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.83884334564209,
+      "cup_body_y": -2.070479154586792,
+      "current_row": 0,
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 19,
+      "goal_ball_xyz": [
+        -0.006744294427335262,
+        -2.291229248046875,
+        0.9139013290405273
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.736886501312256,
+        7.757227420806885
+      ],
+      "gt_replay_endpoint_error_m": 1.1157427625774724e-06,
+      "source_episode": 8299,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.83884334564209,
+      "cup_body_y": -1.9790469408035278,
+      "current_row": 0,
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 31,
+      "goal_ball_xyz": [
+        -0.0037761374842375517,
+        -2.196075439453125,
+        0.9139043092727661
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.645526647567749,
+        6.786336421966553
+      ],
+      "gt_replay_endpoint_error_m": 2.146390276445453e-08,
+      "source_episode": 8311,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.38300323486328,
+      "cup_body_y": -2.11149001121521,
+      "current_row": 0,
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 10,
+      "goal_ball_xyz": [
+        -0.012068912386894226,
+        -2.347072124481201,
+        0.9138895273208618
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7594785690307617,
+        6.045180320739746
+      ],
+      "gt_replay_endpoint_error_m": 3.943640049916118e-07,
+      "source_episode": 8350,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.38300323486328,
+      "cup_body_y": -1.9908233880996704,
+      "current_row": 0,
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 24,
+      "goal_ball_xyz": [
+        -0.009495707228779793,
+        -2.175464153289795,
+        0.9139301180839539
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.870743751525879,
+        6.651359558105469
+      ],
+      "gt_replay_endpoint_error_m": 3.4535833808213006e-05,
+      "source_episode": 8364,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.38300323486328,
+      "cup_body_y": -2.1538171768188477,
+      "current_row": 0,
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 30,
+      "goal_ball_xyz": [
+        0.018194472417235374,
+        -2.3052315711975098,
+        0.9139565229415894
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8447489738464355,
+        6.799862861633301
+      ],
+      "gt_replay_endpoint_error_m": 5.935539438221839e-06,
+      "source_episode": 8370,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.38300323486328,
+      "cup_body_y": -1.878121256828308,
+      "current_row": 0,
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 49,
+      "goal_ball_xyz": [
+        -0.004677317570894957,
+        -2.102293014526367,
+        0.9138985872268677
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.841745376586914,
+        7.910266399383545
+      ],
+      "gt_replay_endpoint_error_m": 2.9401899295175684e-08,
+      "source_episode": 8389,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 27.38300323486328,
+      "cup_body_y": -2.011672019958496,
+      "current_row": 0,
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 54,
+      "goal_ball_xyz": [
+        0.012854315340518951,
+        -2.2355546951293945,
+        0.9138988256454468
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.909156084060669,
+        6.593039512634277
+      ],
+      "gt_replay_endpoint_error_m": 0.00021678665025852986,
+      "source_episode": 8394,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 20.093708038330078,
+      "cup_body_y": -2.088857412338257,
+      "current_row": 0,
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 0,
+      "goal_ball_xyz": [
+        -0.0056480523198843,
+        -2.2461087703704834,
+        0.9139518737792969
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8819100856781006,
+        7.921446800231934
+      ],
+      "gt_replay_endpoint_error_m": 1.4886941768971027e-07,
+      "source_episode": 8400,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 20.093708038330078,
+      "cup_body_y": -2.154069423675537,
+      "current_row": 0,
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 8,
+      "goal_ball_xyz": [
+        -0.00475737452507019,
+        -2.336806297302246,
+        0.9139316082000732
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.901871681213379,
+        7.498232841491699
+      ],
+      "gt_replay_endpoint_error_m": 7.785721586782155e-08,
+      "source_episode": 8408,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 20.093708038330078,
+      "cup_body_y": -1.910793423652649,
+      "current_row": 0,
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 16,
+      "goal_ball_xyz": [
+        -0.004201576579362154,
+        -2.0753421783447266,
+        0.9139460921287537
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.672196388244629,
+        7.352107048034668
+      ],
+      "gt_replay_endpoint_error_m": 1.0770784095748544e-07,
+      "source_episode": 8416,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 20.093708038330078,
+      "cup_body_y": -1.9427138566970825,
+      "current_row": 0,
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 37,
+      "goal_ball_xyz": [
+        -0.004042171873152256,
+        -2.1769769191741943,
+        0.9138906002044678
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.6914587020874023,
+        7.048914909362793
+      ],
+      "gt_replay_endpoint_error_m": 1.1343046693104477e-07,
+      "source_episode": 8437,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 20.093708038330078,
+      "cup_body_y": -2.154707431793213,
+      "current_row": 0,
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 41,
+      "goal_ball_xyz": [
+        -0.0046670688316226006,
+        -2.305640697479248,
+        0.9139569401741028
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.5672342777252197,
+        6.537975788116455
+      ],
+      "gt_replay_endpoint_error_m": 1.1023362560249571e-08,
+      "source_episode": 8441,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.0590705871582,
+      "cup_body_y": -1.9047335386276245,
+      "current_row": 0,
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 6,
+      "goal_ball_xyz": [
+        -0.007409275509417057,
+        -2.1227526664733887,
+        0.913903534412384
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.737306594848633,
+        6.849262237548828
+      ],
+      "gt_replay_endpoint_error_m": 3.0584087957769686e-07,
+      "source_episode": 8466,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.0590705871582,
+      "cup_body_y": -1.9737495183944702,
+      "current_row": 0,
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 11,
+      "goal_ball_xyz": [
+        -0.005575778428465128,
+        -2.1583619117736816,
+        0.9139301180839539
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.955256462097168,
+        7.960141181945801
+      ],
+      "gt_replay_endpoint_error_m": 4.636614267020426e-09,
+      "source_episode": 8471,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.0590705871582,
+      "cup_body_y": -2.138580322265625,
+      "current_row": 0,
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 15,
+      "goal_ball_xyz": [
+        -0.004182364791631699,
+        -2.355466365814209,
+        0.9139044284820557
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9148035049438477,
+        6.4898200035095215
+      ],
+      "gt_replay_endpoint_error_m": 7.517277390701138e-08,
+      "source_episode": 8475,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.0590705871582,
+      "cup_body_y": -1.831919550895691,
+      "current_row": 0,
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 39,
+      "goal_ball_xyz": [
+        -0.01082377228885889,
+        -2.068103790283203,
+        0.9138890504837036
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9542927742004395,
+        6.631625652313232
+      ],
+      "gt_replay_endpoint_error_m": 1.748172165551474e-07,
+      "source_episode": 8499,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.0590705871582,
+      "cup_body_y": -2.094024658203125,
+      "current_row": 0,
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 53,
+      "goal_ball_xyz": [
+        -0.0019496518652886152,
+        -2.33032488822937,
+        0.9138889312744141
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9576714038848877,
+        7.060464859008789
+      ],
+      "gt_replay_endpoint_error_m": 4.3278633000013476e-07,
+      "source_episode": 8513,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 13.822202682495117,
+      "cup_body_y": -1.964764952659607,
+      "current_row": 0,
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 1,
+      "goal_ball_xyz": [
+        -0.003506823442876339,
+        -2.184492588043213,
+        0.9139021635055542
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.5906853675842285,
+        6.515613079071045
+      ],
+      "gt_replay_endpoint_error_m": 1.4386715383580043e-08,
+      "source_episode": 8521,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 13.822202682495117,
+      "cup_body_y": -2.2292897701263428,
+      "current_row": 0,
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 5,
+      "goal_ball_xyz": [
+        -0.0035163790453225374,
+        -2.4406962394714355,
+        0.9139087796211243
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7882182598114014,
+        6.095145225524902
+      ],
+      "gt_replay_endpoint_error_m": 4.166743571272608e-08,
+      "source_episode": 8525,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 13.822202682495117,
+      "cup_body_y": -2.3932065963745117,
+      "current_row": 0,
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 9,
+      "goal_ball_xyz": [
+        -0.007182062137871981,
+        -2.613508939743042,
+        0.913901686668396
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.67966628074646,
+        6.948921203613281
+      ],
+      "gt_replay_endpoint_error_m": 3.200849421027295e-07,
+      "source_episode": 8529,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 13.822202682495117,
+      "cup_body_y": -2.2665483951568604,
+      "current_row": 0,
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 12,
+      "goal_ball_xyz": [
+        -0.012285927310585976,
+        -2.4978039264678955,
+        0.9138929843902588
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.5514888763427734,
+        6.006904125213623
+      ],
+      "gt_replay_endpoint_error_m": 1.1864851090143632e-06,
+      "source_episode": 8532,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 13.822202682495117,
+      "cup_body_y": -2.1211471557617188,
+      "current_row": 0,
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 51,
+      "goal_ball_xyz": [
+        -0.004300635773688555,
+        -2.3112499713897705,
+        0.9139257669448853
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.5361669063568115,
+        6.65792179107666
+      ],
+      "gt_replay_endpoint_error_m": 6.343020407737388e-07,
+      "source_episode": 8571,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 31.03418731689453,
+      "cup_body_y": -1.97537100315094,
+      "current_row": 0,
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 14,
+      "goal_ball_xyz": [
+        -0.005165139213204384,
+        -2.201242208480835,
+        0.9138972759246826
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9485690593719482,
+        7.914313316345215
+      ],
+      "gt_replay_endpoint_error_m": 9.20127076048003e-08,
+      "source_episode": 8594,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 31.03418731689453,
+      "cup_body_y": -2.2858550548553467,
+      "current_row": 0,
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 19,
+      "goal_ball_xyz": [
+        0.025524893775582314,
+        -2.4645025730133057,
+        0.9139348864555359
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9511194229125977,
+        6.2046003341674805
+      ],
+      "gt_replay_endpoint_error_m": 6.616140738311543e-06,
+      "source_episode": 8599,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 31.03418731689453,
+      "cup_body_y": -1.9074288606643677,
+      "current_row": 0,
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 25,
+      "goal_ball_xyz": [
+        -0.0051639792509377,
+        -2.115673065185547,
+        0.9139112830162048
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.58624267578125,
+        6.323353290557861
+      ],
+      "gt_replay_endpoint_error_m": 1.3770432766487088e-07,
+      "source_episode": 8605,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 31.03418731689453,
+      "cup_body_y": -2.0285933017730713,
+      "current_row": 0,
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 43,
+      "goal_ball_xyz": [
+        -0.005095461383461952,
+        -2.2260074615478516,
+        0.9139199256896973
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9698684215545654,
+        7.880037307739258
+      ],
+      "gt_replay_endpoint_error_m": 9.859983765196495e-08,
+      "source_episode": 8623,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 31.03418731689453,
+      "cup_body_y": -1.9885364770889282,
+      "current_row": 0,
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 56,
+      "goal_ball_xyz": [
+        -0.0033473586663603783,
+        -2.2040748596191406,
+        0.9139055013656616
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7362265586853027,
+        6.026071548461914
+      ],
+      "gt_replay_endpoint_error_m": 9.241154889144187e-08,
+      "source_episode": 8636,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.569294929504395,
+      "cup_body_y": -1.9157241582870483,
+      "current_row": 0,
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 9,
+      "goal_ball_xyz": [
+        -0.0037061714101582766,
+        -2.1132662296295166,
+        0.9139198064804077
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.571406126022339,
+        6.8101396560668945
+      ],
+      "gt_replay_endpoint_error_m": 2.7918816725390742e-08,
+      "source_episode": 8649,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.569294929504395,
+      "cup_body_y": -2.185194492340088,
+      "current_row": 0,
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 18,
+      "goal_ball_xyz": [
+        -0.005177258513867855,
+        -2.3471601009368896,
+        0.913948118686676
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.645812749862671,
+        7.32400369644165
+      ],
+      "gt_replay_endpoint_error_m": 3.4981164521169526e-08,
+      "source_episode": 8658,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.569294929504395,
+      "cup_body_y": -2.167206287384033,
+      "current_row": 0,
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 36,
+      "goal_ball_xyz": [
+        -0.005005327984690666,
+        -2.387601375579834,
+        0.9139016270637512
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8411386013031006,
+        7.530591011047363
+      ],
+      "gt_replay_endpoint_error_m": 6.591914810378907e-08,
+      "source_episode": 8676,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.569294929504395,
+      "cup_body_y": -2.1965067386627197,
+      "current_row": 0,
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 42,
+      "goal_ball_xyz": [
+        -0.015762990340590477,
+        -2.4175806045532227,
+        0.9139010906219482
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8173105716705322,
+        7.325979232788086
+      ],
+      "gt_replay_endpoint_error_m": 1.074469503014667e-07,
+      "source_episode": 8682,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 14.569294929504395,
+      "cup_body_y": -2.0081896781921387,
+      "current_row": 0,
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 43,
+      "goal_ball_xyz": [
+        0.010194415226578712,
+        -2.230844020843506,
+        0.913899838924408
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.6264290809631348,
+        6.068572521209717
+      ],
+      "gt_replay_endpoint_error_m": 1.936851483408723e-07,
+      "source_episode": 8683,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.1259708404541,
+      "cup_body_y": -2.130506753921509,
+      "current_row": 0,
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 2,
+      "goal_ball_xyz": [
+        0.03158507123589516,
+        -2.280255079269409,
+        0.9139578938484192
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9376797676086426,
+        6.112661838531494
+      ],
+      "gt_replay_endpoint_error_m": 7.526474461109704e-07,
+      "source_episode": 8702,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.1259708404541,
+      "cup_body_y": -2.1199841499328613,
+      "current_row": 0,
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 21,
+      "goal_ball_xyz": [
+        -0.016578463837504387,
+        -2.2834458351135254,
+        0.9139469265937805
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8887975215911865,
+        6.001093864440918
+      ],
+      "gt_replay_endpoint_error_m": 4.1592590162015886e-05,
+      "source_episode": 8721,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.1259708404541,
+      "cup_body_y": -1.865756869316101,
+      "current_row": 0,
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 35,
+      "goal_ball_xyz": [
+        -0.00413365475833416,
+        -2.0413119792938232,
+        0.9139373302459717
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7315595149993896,
+        7.314361095428467
+      ],
+      "gt_replay_endpoint_error_m": 7.799019201829444e-08,
+      "source_episode": 8735,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.1259708404541,
+      "cup_body_y": -2.0513110160827637,
+      "current_row": 0,
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 41,
+      "goal_ball_xyz": [
+        -0.005469781346619129,
+        -2.2811732292175293,
+        0.9138940572738647
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.683842897415161,
+        6.192762851715088
+      ],
+      "gt_replay_endpoint_error_m": 2.666904810164964e-07,
+      "source_episode": 8741,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.1259708404541,
+      "cup_body_y": -1.8478082418441772,
+      "current_row": 0,
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 49,
+      "goal_ball_xyz": [
+        -0.002441396936774254,
+        -1.9965312480926514,
+        0.9139586687088013
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.73561692237854,
+        6.9962849617004395
+      ],
+      "gt_replay_endpoint_error_m": 4.2483831379862566e-07,
+      "source_episode": 8749,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 32.6025505065918,
+      "cup_body_y": -1.9371370077133179,
+      "current_row": 0,
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 10,
+      "goal_ball_xyz": [
+        -0.003509392961859703,
+        -2.122232437133789,
+        0.9139297008514404
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.70554518699646,
+        6.355452060699463
+      ],
+      "gt_replay_endpoint_error_m": 3.012077004514055e-08,
+      "source_episode": 8770,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 32.6025505065918,
+      "cup_body_y": -2.049691677093506,
+      "current_row": 0,
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 11,
+      "goal_ball_xyz": [
+        -0.010553553700447083,
+        -2.2508492469787598,
+        0.9139169454574585
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8394196033477783,
+        7.081240653991699
+      ],
+      "gt_replay_endpoint_error_m": 8.677864516227703e-08,
+      "source_episode": 8771,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 32.6025505065918,
+      "cup_body_y": -1.9170340299606323,
+      "current_row": 0,
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 13,
+      "goal_ball_xyz": [
+        -0.004931617993861437,
+        -2.086639881134033,
+        0.9139420390129089
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7556087970733643,
+        7.086278438568115
+      ],
+      "gt_replay_endpoint_error_m": 3.623609048987396e-08,
+      "source_episode": 8773,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 32.6025505065918,
+      "cup_body_y": -2.065887928009033,
+      "current_row": 0,
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 25,
+      "goal_ball_xyz": [
+        0.008001819252967834,
+        -2.257939338684082,
+        0.9139242172241211
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8664770126342773,
+        7.260453701019287
+      ],
+      "gt_replay_endpoint_error_m": 2.2443918781382756e-06,
+      "source_episode": 8785,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 32.6025505065918,
+      "cup_body_y": -1.8348361253738403,
+      "current_row": 0,
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 41,
+      "goal_ball_xyz": [
+        0.021207166835665703,
+        -2.0242364406585693,
+        0.9139263033866882
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.6414449214935303,
+        6.243067741394043
+      ],
+      "gt_replay_endpoint_error_m": 3.37110055887084e-07,
+      "source_episode": 8801,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.486488342285156,
+      "cup_body_y": -2.0515658855438232,
+      "current_row": 0,
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 2,
+      "goal_ball_xyz": [
+        -0.004101080354303122,
+        -2.2779040336608887,
+        0.9138968586921692
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9198498725891113,
+        6.815784454345703
+      ],
+      "gt_replay_endpoint_error_m": 9.267434623157187e-08,
+      "source_episode": 8822,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.486488342285156,
+      "cup_body_y": -1.9747978448867798,
+      "current_row": 0,
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 14,
+      "goal_ball_xyz": [
+        -0.005748654715716839,
+        -2.139904499053955,
+        0.9139456748962402
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.860779047012329,
+        7.619443893432617
+      ],
+      "gt_replay_endpoint_error_m": 1.7526597517017495e-07,
+      "source_episode": 8834,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.486488342285156,
+      "cup_body_y": -2.0451231002807617,
+      "current_row": 0,
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 34,
+      "goal_ball_xyz": [
+        -0.0034578656777739525,
+        -2.224954128265381,
+        0.9139339327812195
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7602615356445312,
+        6.102651596069336
+      ],
+      "gt_replay_endpoint_error_m": 5.2171975014980566e-08,
+      "source_episode": 8854,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.486488342285156,
+      "cup_body_y": -1.9678810834884644,
+      "current_row": 0,
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 43,
+      "goal_ball_xyz": [
+        -0.002965265652164817,
+        -2.2058041095733643,
+        0.9138876795768738
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.882127523422241,
+        7.230033874511719
+      ],
+      "gt_replay_endpoint_error_m": 1.3385666281062509e-07,
+      "source_episode": 8863,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 39.486488342285156,
+      "cup_body_y": -2.045203685760498,
+      "current_row": 0,
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 55,
+      "goal_ball_xyz": [
+        -0.0205598846077919,
+        -2.1872825622558594,
+        0.9139639735221863
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.737478017807007,
+        6.0672526359558105
+      ],
+      "gt_replay_endpoint_error_m": 4.032669093599091e-05,
+      "source_episode": 8875,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 36.250274658203125,
+      "cup_body_y": -1.9327718019485474,
+      "current_row": 0,
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 3,
+      "goal_ball_xyz": [
+        -0.004404903389513493,
+        -2.1718125343322754,
+        0.9138867855072021
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8614096641540527,
+        7.329372406005859
+      ],
+      "gt_replay_endpoint_error_m": 1.9933565781540509e-07,
+      "source_episode": 8883,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 36.250274658203125,
+      "cup_body_y": -1.9993232488632202,
+      "current_row": 0,
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 8,
+      "goal_ball_xyz": [
+        -0.005603631027042866,
+        -2.1902849674224854,
+        0.913925051689148
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.694815158843994,
+        6.053867340087891
+      ],
+      "gt_replay_endpoint_error_m": 1.3085822576965753e-07,
+      "source_episode": 8888,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 36.250274658203125,
+      "cup_body_y": -2.070101737976074,
+      "current_row": 0,
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 11,
+      "goal_ball_xyz": [
+        -0.004224243573844433,
+        -2.230623245239258,
+        0.9139493107795715
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.954340934753418,
+        6.321690559387207
+      ],
+      "gt_replay_endpoint_error_m": 4.164576277254514e-07,
+      "source_episode": 8891,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 36.250274658203125,
+      "cup_body_y": -1.9819527864456177,
+      "current_row": 0,
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 29,
+      "goal_ball_xyz": [
+        -0.004485420882701874,
+        -2.143019914627075,
+        0.9139488339424133
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.808788299560547,
+        7.122603416442871
+      ],
+      "gt_replay_endpoint_error_m": 1.1633534956726471e-07,
+      "source_episode": 8909,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 36.250274658203125,
+      "cup_body_y": -2.1026203632354736,
+      "current_row": 0,
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 35,
+      "goal_ball_xyz": [
+        -0.011742515489459038,
+        -2.268538475036621,
+        0.9139450192451477
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9977269172668457,
+        7.990901947021484
+      ],
+      "gt_replay_endpoint_error_m": 1.4660884271326185e-05,
+      "source_episode": 8915,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.202585220336914,
+      "cup_body_y": -1.9351783990859985,
+      "current_row": 0,
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 12,
+      "goal_ball_xyz": [
+        -0.005127870477735996,
+        -2.10817551612854,
+        0.913939356803894
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.73095440864563,
+        7.253921985626221
+      ],
+      "gt_replay_endpoint_error_m": 1.2701385675347221e-08,
+      "source_episode": 8952,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.202585220336914,
+      "cup_body_y": -2.169564723968506,
+      "current_row": 0,
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 27,
+      "goal_ball_xyz": [
+        -0.010099264793097973,
+        -2.3613479137420654,
+        0.9139243960380554
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.970217704772949,
+        7.389634132385254
+      ],
+      "gt_replay_endpoint_error_m": 4.034727402609811e-08,
+      "source_episode": 8967,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.202585220336914,
+      "cup_body_y": -2.042348861694336,
+      "current_row": 0,
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 32,
+      "goal_ball_xyz": [
+        -0.004858726169914007,
+        -2.262147903442383,
+        0.9139021039009094
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.9226489067077637,
+        7.691738128662109
+      ],
+      "gt_replay_endpoint_error_m": 2.5698484548853128e-08,
+      "source_episode": 8972,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.202585220336914,
+      "cup_body_y": -1.9640544652938843,
+      "current_row": 0,
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 42,
+      "goal_ball_xyz": [
+        0.029757419601082802,
+        -2.159975528717041,
+        0.9139211177825928
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.8037538528442383,
+        6.794338703155518
+      ],
+      "gt_replay_endpoint_error_m": 5.222134731762482e-07,
+      "source_episode": 8982,
+      "wm_horizon_tokens": 20
+    },
+    {
+      "contact_damping": 30.202585220336914,
+      "cup_body_y": -1.964901089668274,
+      "current_row": 0,
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 44,
+      "goal_ball_xyz": [
+        0.008857463486492634,
+        -2.186260461807251,
+        0.9139008522033691
+      ],
+      "goal_row": 300,
+      "gt_action": [
+        2.7497851848602295,
+        7.3180832862854
+      ],
+      "gt_replay_endpoint_error_m": 1.1360963333852533e-05,
+      "source_episode": 8984,
+      "wm_horizon_tokens": 20
+    }
+  ]
+}

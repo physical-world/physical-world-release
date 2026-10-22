@@ -1,0 +1,7 @@
+defaults:
+  - estimator
+  - _self_
+manifest: data/beerpong/beerpong_damping_9k_v2.zarr
+epochs: 5
+environment: beerpong
+model_config: conf/models/beerpong_context.yaml

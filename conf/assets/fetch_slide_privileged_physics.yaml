@@ -1,0 +1,5 @@
+# Bound FetchSlide three-physics XY retraction-v2 epoch5 assets.
+checkpoint: checkpoints/fetch_slide/privileged_physics/next_frame_model.pth
+checkpoint_config: checkpoints/fetch_slide/privileged_physics/next_frame_model_config.yaml
+manifest: data/fetch_slide/fetch_slide_friction_density_mass_xy_36k_v2.zarr
+model_config: conf/models/fetch_slide_privileged_physics.yaml

@@ -1,0 +1,6 @@
+defaults:
+  - eval_pusht
+  - override assets@_global_: pusht_long_history
+  - _self_
+
+method: long_history

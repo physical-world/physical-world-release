@@ -1,0 +1,9 @@
+defaults:
+  - eval_visual
+  - assets@_global_: reacher_vanilla
+  - override hydra/job_logging: disabled
+  - _self_
+environment: reacher
+masks: data/reacher/reacher_d_random_3k_v4_mask.zarr
+target_names:
+  planning: next_frame

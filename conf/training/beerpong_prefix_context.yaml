@@ -1,0 +1,10 @@
+# Runtime defaults from the bound paper training configuration.
+seed: 0
+epochs: 3
+batch_size: 12
+predictor_lr: 0.0001
+action_encoder_lr: 0.0001
+decoder_lr: 0.0001
+num_workers: 6
+gradient_accumulation_steps: 4
+gradient_clip: 1.0

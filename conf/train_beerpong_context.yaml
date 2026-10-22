@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: beerpong_context
+  - override training: beerpong_context
+  - _self_

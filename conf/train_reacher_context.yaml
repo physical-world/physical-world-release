@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: reacher_context
+  - override training: reacher_context
+  - _self_

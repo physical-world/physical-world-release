@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: beerpong_privileged_physics
+  - override training: beerpong
+  - _self_

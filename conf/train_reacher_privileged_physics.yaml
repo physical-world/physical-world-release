@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: reacher_privileged_physics
+  - override training: reacher
+  - _self_

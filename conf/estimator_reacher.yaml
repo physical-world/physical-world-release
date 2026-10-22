@@ -1,0 +1,7 @@
+defaults:
+  - estimator
+  - _self_
+manifest: data/reacher/reacher_d_random_3k_v4.zarr
+epochs: 20
+environment: reacher
+model_config: conf/models/reacher_context.yaml

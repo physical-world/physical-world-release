@@ -1,0 +1,30 @@
+# Shared execution settings; environment configurations bind the actual assets.
+method: vanilla
+phase: nonplanning
+device: cuda
+eval_seed: 42
+plan_seed: 42
+paper_config_names:
+  nonplanning: next_frame
+  planning: planning
+paper_eval_config: checkpoints/${environment}/${method}/${paper_config_names.${phase}}_eval_config.yaml
+target_names:
+  nonplanning: next_frame
+  planning: planning
+target_manifest: null
+num_targets: null
+target_seed: ${eval_seed}
+ctx_manifest: null
+ctx_seed: ${eval_seed}
+sampling_protocol: null
+targets: null
+segmentation: checkpoints/${environment}/segmentation.pth
+max_targets: null
+max_batches: null
+planning_overrides: {}
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false

@@ -1,0 +1,5 @@
+checkpoint: checkpoints/reacher/lewm_context/next_frame_model.pt
+checkpoint_config: checkpoints/reacher/lewm_context/next_frame_model_config.yaml
+manifest: data/reacher/reacher_d_random_3k_v4.zarr
+decoder: checkpoints/reacher/lewm_context/next_frame_decoder.pt
+model_config: conf/models/reacher_lewm_context.yaml

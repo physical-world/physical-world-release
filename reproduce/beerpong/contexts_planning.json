@@ -1,0 +1,392 @@
+{
+  "ctx_set_hash": "61c14fdad122092c3b8cab198b7e76eef606df7676eba6da2e3b1f9735a3e71d",
+  "data_identity": "d5171d4dc431304762434e410359fc8224da76b53e0df03a20e357f7dc0bd6ba",
+  "environment": "beerpong",
+  "geometry": {
+    "ctx_frameskip": 15,
+    "ctx_length": 180,
+    "fixed_start": 0,
+    "min_episode_length": 180
+  },
+  "protocols": {
+    "planning": [
+      {
+        "donor": 8139,
+        "start": 0,
+        "target": 8100
+      },
+      {
+        "donor": 8152,
+        "start": 0,
+        "target": 8104
+      },
+      {
+        "donor": 8128,
+        "start": 0,
+        "target": 8147
+      },
+      {
+        "donor": 8114,
+        "start": 0,
+        "target": 8150
+      },
+      {
+        "donor": 8142,
+        "start": 0,
+        "target": 8157
+      },
+      {
+        "donor": 8168,
+        "start": 0,
+        "target": 8162
+      },
+      {
+        "donor": 8181,
+        "start": 0,
+        "target": 8177
+      },
+      {
+        "donor": 8199,
+        "start": 0,
+        "target": 8183
+      },
+      {
+        "donor": 8218,
+        "start": 0,
+        "target": 8189
+      },
+      {
+        "donor": 8178,
+        "start": 0,
+        "target": 8197
+      },
+      {
+        "donor": 8243,
+        "start": 0,
+        "target": 8226
+      },
+      {
+        "donor": 8230,
+        "start": 0,
+        "target": 8237
+      },
+      {
+        "donor": 8230,
+        "start": 0,
+        "target": 8243
+      },
+      {
+        "donor": 8243,
+        "start": 0,
+        "target": 8267
+      },
+      {
+        "donor": 8272,
+        "start": 0,
+        "target": 8278
+      },
+      {
+        "donor": 8316,
+        "start": 0,
+        "target": 8284
+      },
+      {
+        "donor": 8320,
+        "start": 0,
+        "target": 8289
+      },
+      {
+        "donor": 8304,
+        "start": 0,
+        "target": 8297
+      },
+      {
+        "donor": 8282,
+        "start": 0,
+        "target": 8299
+      },
+      {
+        "donor": 8301,
+        "start": 0,
+        "target": 8311
+      },
+      {
+        "donor": 8393,
+        "start": 0,
+        "target": 8350
+      },
+      {
+        "donor": 8341,
+        "start": 0,
+        "target": 8364
+      },
+      {
+        "donor": 8363,
+        "start": 0,
+        "target": 8370
+      },
+      {
+        "donor": 8383,
+        "start": 0,
+        "target": 8389
+      },
+      {
+        "donor": 8369,
+        "start": 0,
+        "target": 8394
+      },
+      {
+        "donor": 8438,
+        "start": 0,
+        "target": 8400
+      },
+      {
+        "donor": 8401,
+        "start": 0,
+        "target": 8408
+      },
+      {
+        "donor": 8421,
+        "start": 0,
+        "target": 8416
+      },
+      {
+        "donor": 8432,
+        "start": 0,
+        "target": 8437
+      },
+      {
+        "donor": 8411,
+        "start": 0,
+        "target": 8441
+      },
+      {
+        "donor": 8518,
+        "start": 0,
+        "target": 8466
+      },
+      {
+        "donor": 8482,
+        "start": 0,
+        "target": 8471
+      },
+      {
+        "donor": 8504,
+        "start": 0,
+        "target": 8475
+      },
+      {
+        "donor": 8484,
+        "start": 0,
+        "target": 8499
+      },
+      {
+        "donor": 8508,
+        "start": 0,
+        "target": 8513
+      },
+      {
+        "donor": 8547,
+        "start": 0,
+        "target": 8521
+      },
+      {
+        "donor": 8579,
+        "start": 0,
+        "target": 8525
+      },
+      {
+        "donor": 8562,
+        "start": 0,
+        "target": 8529
+      },
+      {
+        "donor": 8548,
+        "start": 0,
+        "target": 8532
+      },
+      {
+        "donor": 8535,
+        "start": 0,
+        "target": 8571
+      },
+      {
+        "donor": 8595,
+        "start": 0,
+        "target": 8594
+      },
+      {
+        "donor": 8627,
+        "start": 0,
+        "target": 8599
+      },
+      {
+        "donor": 8631,
+        "start": 0,
+        "target": 8605
+      },
+      {
+        "donor": 8624,
+        "start": 0,
+        "target": 8623
+      },
+      {
+        "donor": 8634,
+        "start": 0,
+        "target": 8636
+      },
+      {
+        "donor": 8692,
+        "start": 0,
+        "target": 8649
+      },
+      {
+        "donor": 8697,
+        "start": 0,
+        "target": 8658
+      },
+      {
+        "donor": 8642,
+        "start": 0,
+        "target": 8676
+      },
+      {
+        "donor": 8676,
+        "start": 0,
+        "target": 8682
+      },
+      {
+        "donor": 8691,
+        "start": 0,
+        "target": 8683
+      },
+      {
+        "donor": 8707,
+        "start": 0,
+        "target": 8702
+      },
+      {
+        "donor": 8720,
+        "start": 0,
+        "target": 8721
+      },
+      {
+        "donor": 8708,
+        "start": 0,
+        "target": 8735
+      },
+      {
+        "donor": 8738,
+        "start": 0,
+        "target": 8741
+      },
+      {
+        "donor": 8717,
+        "start": 0,
+        "target": 8749
+      },
+      {
+        "donor": 8763,
+        "start": 0,
+        "target": 8770
+      },
+      {
+        "donor": 8785,
+        "start": 0,
+        "target": 8771
+      },
+      {
+        "donor": 8774,
+        "start": 0,
+        "target": 8773
+      },
+      {
+        "donor": 8810,
+        "start": 0,
+        "target": 8785
+      },
+      {
+        "donor": 8818,
+        "start": 0,
+        "target": 8801
+      },
+      {
+        "donor": 8829,
+        "start": 0,
+        "target": 8822
+      },
+      {
+        "donor": 8846,
+        "start": 0,
+        "target": 8834
+      },
+      {
+        "donor": 8873,
+        "start": 0,
+        "target": 8854
+      },
+      {
+        "donor": 8821,
+        "start": 0,
+        "target": 8863
+      },
+      {
+        "donor": 8839,
+        "start": 0,
+        "target": 8875
+      },
+      {
+        "donor": 8908,
+        "start": 0,
+        "target": 8883
+      },
+      {
+        "donor": 8927,
+        "start": 0,
+        "target": 8888
+      },
+      {
+        "donor": 8886,
+        "start": 0,
+        "target": 8891
+      },
+      {
+        "donor": 8924,
+        "start": 0,
+        "target": 8909
+      },
+      {
+        "donor": 8887,
+        "start": 0,
+        "target": 8915
+      },
+      {
+        "donor": 8987,
+        "start": 0,
+        "target": 8952
+      },
+      {
+        "donor": 8975,
+        "start": 0,
+        "target": 8967
+      },
+      {
+        "donor": 8953,
+        "start": 0,
+        "target": 8972
+      },
+      {
+        "donor": 8956,
+        "start": 0,
+        "target": 8982
+      },
+      {
+        "donor": 8975,
+        "start": 0,
+        "target": 8984
+      }
+    ]
+  },
+  "split": "validation",
+  "split_identity": "6a632e9856f6ea24edee81e6488f9809daa23c13ab205f9221fff5208cffb88f"
+}

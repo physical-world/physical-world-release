@@ -1,0 +1,5 @@
+defaults:
+  - eval_reacher
+  - override assets@_global_: reacher_long_history
+  - _self_
+method: long_history

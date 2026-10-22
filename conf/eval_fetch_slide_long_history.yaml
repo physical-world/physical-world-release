@@ -1,0 +1,5 @@
+defaults:
+  - eval_fetch_slide
+  - override assets@_global_: fetch_slide_long_history
+  - _self_
+method: long_history

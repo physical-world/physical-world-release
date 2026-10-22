@@ -1,0 +1,5 @@
+checkpoint: checkpoints/pusht/lewm_context/next_frame_model.pt
+checkpoint_config: checkpoints/pusht/lewm_context/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+decoder: checkpoints/pusht/lewm_context/next_frame_decoder.pt
+model_config: conf/models/pusht_lewm_context.yaml

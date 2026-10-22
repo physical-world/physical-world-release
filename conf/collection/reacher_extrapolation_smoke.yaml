@@ -1,0 +1,8 @@
+defaults:
+  - reacher_extrapolation
+  - _self_
+
+output: logs/collection/reacher_extrapolation_smoke.zarr
+values_per_bin: 1
+episodes_per_dynamics: 1
+length: 8

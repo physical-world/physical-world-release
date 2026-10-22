@@ -1,0 +1,4 @@
+defaults:
+  - train_tswm
+  - override assets@_global_: reacher_tswm
+  - _self_

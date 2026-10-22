@@ -1,0 +1,10 @@
+# Runtime values bound to the released BeerPong Long History run.
+seed: 0
+epochs: 5
+batch_size: 12
+gradient_accumulation_steps: 4
+num_workers: 6
+predictor_lr: 0.0001
+action_encoder_lr: 0.0001
+decoder_lr: 0.0001
+gradient_clip: 1.0

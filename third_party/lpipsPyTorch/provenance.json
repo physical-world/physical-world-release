@@ -1,0 +1,10 @@
+{
+  "legacy_revision": "bd20c954fbeb764a17811aa11c3fd753a5dec343",
+  "upstream_revision": "016e0ae19ceff83450590738948941a7eb9b95b7",
+  "files": {
+    "__init__.py": "a657ce7355782eb970f95fd0d2e26eec5b9023212d2b655814da6e15b70510b4",
+    "modules/lpips.py": "fd7f23fdb77a5212626f8d123d71961bc59feafe85a1db86d49ab32ac6cf8743",
+    "modules/networks.py": "dfa6f152b0e3fbc23ac3bfaea52b46e9473e64ad539ea22ab030c57af51c7f14",
+    "modules/utils.py": "c4c7baa8f81986df2ab695f6881e5d4e6e5980f8b1f47992302ce82ca924bd82"
+  }
+}

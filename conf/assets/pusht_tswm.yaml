@@ -1,0 +1,6 @@
+checkpoint: checkpoints/pusht/tswm/next_frame_model.pth
+checkpoint_config: checkpoints/pusht/tswm/next_frame_model_config.yaml
+manifest: data/pusht/fresh_iid/manifest.json
+evaluation_config: conf/evaluation/pusht_tswm.yaml
+planning_config: conf/planning/pusht_tswm.yaml
+model_config: conf/models/pusht_tswm.yaml

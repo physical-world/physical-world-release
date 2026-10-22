@@ -1,0 +1,135 @@
+{
+  "manifest": "data/pusht/fresh_iid/manifest.json",
+  "normalization": {
+    "action_mean": [
+      218.765625,
+      270.5123291015625
+    ],
+    "action_std": [
+      97.86474609375,
+      105.871826171875
+    ],
+    "proprio_mean": [
+      236.61549377441406,
+      264.5674133300781,
+      -2.9303202629089355,
+      2.543079137802124
+    ],
+    "proprio_std": [
+      101.12020111083984,
+      87.01119995117188,
+      74.8455581665039,
+      74.14009094238281
+    ]
+  },
+  "samples": [
+    {
+      "source_episode": 687,
+      "current_row": 81,
+      "cog_seed": 5142,
+      "context_source_episode": 706,
+      "context_start": 63
+    },
+    {
+      "source_episode": 1180,
+      "current_row": 76,
+      "cog_seed": 5147,
+      "context_source_episode": 1146,
+      "context_start": 9
+    },
+    {
+      "source_episode": 874,
+      "current_row": 97,
+      "cog_seed": 5144,
+      "context_source_episode": 871,
+      "context_start": 47
+    },
+    {
+      "source_episode": 1112,
+      "current_row": 73,
+      "cog_seed": 5147,
+      "context_source_episode": 1150,
+      "context_start": 76
+    },
+    {
+      "source_episode": 211,
+      "current_row": 71,
+      "cog_seed": 5138,
+      "context_source_episode": 223,
+      "context_start": 74
+    },
+    {
+      "source_episode": 60,
+      "current_row": 73,
+      "cog_seed": 5136,
+      "context_source_episode": 44,
+      "context_start": 12
+    },
+    {
+      "source_episode": 544,
+      "current_row": 199,
+      "cog_seed": 5141,
+      "context_source_episode": 565,
+      "context_start": 0
+    },
+    {
+      "source_episode": 1005,
+      "current_row": 94,
+      "cog_seed": 5145,
+      "context_source_episode": 950,
+      "context_start": 58
+    },
+    {
+      "source_episode": 994,
+      "current_row": 139,
+      "cog_seed": 5145,
+      "context_source_episode": 947,
+      "context_start": 6
+    },
+    {
+      "source_episode": 1111,
+      "current_row": 72,
+      "cog_seed": 5147,
+      "context_source_episode": 1116,
+      "context_start": 40
+    }
+  ],
+  "methods": {
+    "vanilla": {
+      "checkpoint": "checkpoints/pusht/vanilla/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/vanilla/next_frame_model_config.yaml"
+    },
+    "long_history": {
+      "checkpoint": "checkpoints/pusht/long_history/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/long_history/next_frame_model_config.yaml"
+    },
+    "prefix_context_joint": {
+      "checkpoint": "checkpoints/pusht/prefix_context/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/prefix_context/next_frame_model_config.yaml"
+    },
+    "privileged_physics": {
+      "checkpoint": "checkpoints/pusht/privileged_physics/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/privileged_physics/next_frame_model_config.yaml"
+    },
+    "estimated_physics": {
+      "checkpoint": "checkpoints/pusht/estimated_physics/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/estimated_physics/next_frame_model_config.yaml",
+      "estimator": "checkpoints/pusht/estimated_physics/next_frame_estimator.pth"
+    },
+    "context": {
+      "checkpoint": "checkpoints/pusht/context/next_frame_model.pth",
+      "model_config": "checkpoints/pusht/context/next_frame_model_config.yaml"
+    }
+  },
+  "warmup": 20,
+  "repeats": 100,
+  "horizons": [
+    5,
+    10,
+    20
+  ],
+  "threads": 4,
+  "tf32": false,
+  "dtype": "float32",
+  "sample_seed": 0
+}

@@ -1,0 +1,24 @@
+# Training configuration for launch.py.
+defaults:
+  - assets@_global_: pusht_vanilla
+  - training: pusht
+  - override hydra/job_logging: disabled
+  - _self_
+
+device: cuda
+# One batch per split and one epoch for bounded launcher inspection.
+inspection: false
+logging:
+  project: physical
+  mode: online
+
+# Run creation below logs/ is explicit in launch.py; Hydra keeps asset paths stable.
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false
+
+init_from: null
+resume_from: null

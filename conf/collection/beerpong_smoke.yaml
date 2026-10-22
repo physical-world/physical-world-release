@@ -1,0 +1,7 @@
+defaults:
+  - beerpong
+  - _self_
+
+output: logs/collection/beerpong_smoke.zarr
+dynamics_ids: [0, 135]
+episode_indices: [0]

@@ -1,0 +1,29 @@
+# Local asset links and generated results; keep directory markers only.
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+/checkpoints/**
+!/checkpoints/**/
+!/checkpoints/**/.gitkeep
+/logs/**
+!/logs/.gitkeep
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pixi/
+.cache/
+.hydra/
+wandb/
+events.out.tfevents.*
+
+AGENTS.md
+Plan.md
+deprecated/
+# Personal launch scripts are kept locally and excluded from releases.
+/runme/
+# Local release task notes.
+/todo/
+# Local read-only collection assets.
+env/collect/assets/*.pt
+tests/

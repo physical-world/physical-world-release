@@ -1,0 +1,5 @@
+defaults:
+  - eval_beerpong
+  - override assets@_global_: beerpong_long_history
+  - _self_
+method: long_history

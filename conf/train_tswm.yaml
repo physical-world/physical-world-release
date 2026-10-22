@@ -1,0 +1,5 @@
+defaults:
+  - train
+  - override assets@_global_: pusht_tswm
+  - override training: tswm
+  - _self_

@@ -1,0 +1,5 @@
+# Bound damping-only Reacher epoch20 Long History assets.
+checkpoint: checkpoints/reacher/long_history/next_frame_model.pth
+checkpoint_config: checkpoints/reacher/long_history/next_frame_model_config.yaml
+manifest: data/reacher/reacher_d_random_3k_v4.zarr
+model_config: conf/models/reacher_long_history.yaml

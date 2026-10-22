@@ -1,0 +1,390 @@
+{
+  "data_identity": "d5171d4dc431304762434e410359fc8224da76b53e0df03a20e357f7dc0bd6ba",
+  "environment": "beerpong",
+  "protocol": {
+    "fixed_horizon": 5,
+    "frameskip": 15,
+    "minimum_episode_length": 301,
+    "rollout_init_ctx": 3
+  },
+  "split": "validation",
+  "split_identity": "6a632e9856f6ea24edee81e6488f9809daa23c13ab205f9221fff5208cffb88f",
+  "target_set_hash": "bfe14c565cd45c183b2cae41469162986050ff8e9defbe64e0da8a1791c5b8fd",
+  "targets": [
+    {
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 0,
+      "source_episode": 8100
+    },
+    {
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 5,
+      "source_episode": 8105
+    },
+    {
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 13,
+      "source_episode": 8113
+    },
+    {
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 36,
+      "source_episode": 8136
+    },
+    {
+      "dynamics_id": 135,
+      "episode_index_in_dynamics": 45,
+      "source_episode": 8145
+    },
+    {
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 4,
+      "source_episode": 8164
+    },
+    {
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 18,
+      "source_episode": 8178
+    },
+    {
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 45,
+      "source_episode": 8205
+    },
+    {
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 47,
+      "source_episode": 8207
+    },
+    {
+      "dynamics_id": 136,
+      "episode_index_in_dynamics": 48,
+      "source_episode": 8208
+    },
+    {
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 17,
+      "source_episode": 8237
+    },
+    {
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 45,
+      "source_episode": 8265
+    },
+    {
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 53,
+      "source_episode": 8273
+    },
+    {
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 54,
+      "source_episode": 8274
+    },
+    {
+      "dynamics_id": 137,
+      "episode_index_in_dynamics": 55,
+      "source_episode": 8275
+    },
+    {
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 13,
+      "source_episode": 8293
+    },
+    {
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 15,
+      "source_episode": 8295
+    },
+    {
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 22,
+      "source_episode": 8302
+    },
+    {
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 46,
+      "source_episode": 8326
+    },
+    {
+      "dynamics_id": 138,
+      "episode_index_in_dynamics": 54,
+      "source_episode": 8334
+    },
+    {
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 7,
+      "source_episode": 8347
+    },
+    {
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 13,
+      "source_episode": 8353
+    },
+    {
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 39,
+      "source_episode": 8379
+    },
+    {
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 44,
+      "source_episode": 8384
+    },
+    {
+      "dynamics_id": 139,
+      "episode_index_in_dynamics": 59,
+      "source_episode": 8399
+    },
+    {
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 8,
+      "source_episode": 8408
+    },
+    {
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 10,
+      "source_episode": 8410
+    },
+    {
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 54,
+      "source_episode": 8454
+    },
+    {
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 57,
+      "source_episode": 8457
+    },
+    {
+      "dynamics_id": 140,
+      "episode_index_in_dynamics": 58,
+      "source_episode": 8458
+    },
+    {
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 4,
+      "source_episode": 8464
+    },
+    {
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 11,
+      "source_episode": 8471
+    },
+    {
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 46,
+      "source_episode": 8506
+    },
+    {
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 55,
+      "source_episode": 8515
+    },
+    {
+      "dynamics_id": 141,
+      "episode_index_in_dynamics": 57,
+      "source_episode": 8517
+    },
+    {
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 2,
+      "source_episode": 8522
+    },
+    {
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 9,
+      "source_episode": 8529
+    },
+    {
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 17,
+      "source_episode": 8537
+    },
+    {
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 47,
+      "source_episode": 8567
+    },
+    {
+      "dynamics_id": 142,
+      "episode_index_in_dynamics": 52,
+      "source_episode": 8572
+    },
+    {
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 5,
+      "source_episode": 8585
+    },
+    {
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 6,
+      "source_episode": 8586
+    },
+    {
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 8,
+      "source_episode": 8588
+    },
+    {
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 26,
+      "source_episode": 8606
+    },
+    {
+      "dynamics_id": 143,
+      "episode_index_in_dynamics": 31,
+      "source_episode": 8611
+    },
+    {
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 32,
+      "source_episode": 8672
+    },
+    {
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 36,
+      "source_episode": 8676
+    },
+    {
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 43,
+      "source_episode": 8683
+    },
+    {
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 53,
+      "source_episode": 8693
+    },
+    {
+      "dynamics_id": 144,
+      "episode_index_in_dynamics": 56,
+      "source_episode": 8696
+    },
+    {
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 14,
+      "source_episode": 8714
+    },
+    {
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 21,
+      "source_episode": 8721
+    },
+    {
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 37,
+      "source_episode": 8737
+    },
+    {
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 55,
+      "source_episode": 8755
+    },
+    {
+      "dynamics_id": 145,
+      "episode_index_in_dynamics": 59,
+      "source_episode": 8759
+    },
+    {
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 11,
+      "source_episode": 8771
+    },
+    {
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 33,
+      "source_episode": 8793
+    },
+    {
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 56,
+      "source_episode": 8816
+    },
+    {
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 57,
+      "source_episode": 8817
+    },
+    {
+      "dynamics_id": 146,
+      "episode_index_in_dynamics": 59,
+      "source_episode": 8819
+    },
+    {
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 3,
+      "source_episode": 8823
+    },
+    {
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 13,
+      "source_episode": 8833
+    },
+    {
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 15,
+      "source_episode": 8835
+    },
+    {
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 33,
+      "source_episode": 8853
+    },
+    {
+      "dynamics_id": 147,
+      "episode_index_in_dynamics": 54,
+      "source_episode": 8874
+    },
+    {
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 28,
+      "source_episode": 8908
+    },
+    {
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 47,
+      "source_episode": 8927
+    },
+    {
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 48,
+      "source_episode": 8928
+    },
+    {
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 51,
+      "source_episode": 8931
+    },
+    {
+      "dynamics_id": 148,
+      "episode_index_in_dynamics": 58,
+      "source_episode": 8938
+    },
+    {
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 26,
+      "source_episode": 8966
+    },
+    {
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 31,
+      "source_episode": 8971
+    },
+    {
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 36,
+      "source_episode": 8976
+    },
+    {
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 40,
+      "source_episode": 8980
+    },
+    {
+      "dynamics_id": 149,
+      "episode_index_in_dynamics": 47,
+      "source_episode": 8987
+    }
+  ]
+}

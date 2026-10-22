@@ -1,0 +1,9 @@
+defaults:
+  - pusht
+  - _self_
+
+output: logs/collection/pusht_smoke
+cog_seeds: [5001, 5136]
+noise_sigmas_px: [0.3]
+noise_repeats: 1
+max_steps: 8

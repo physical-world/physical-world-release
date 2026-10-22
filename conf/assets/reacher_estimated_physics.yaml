@@ -1,0 +1,5 @@
+# Bound damping-only Reacher estimated-physics Privileged Physics epoch20.
+checkpoint: checkpoints/reacher/estimated_physics/next_frame_model.pth
+checkpoint_config: checkpoints/reacher/estimated_physics/next_frame_model_config.yaml
+manifest: data/reacher/reacher_d_random_3k_v4.zarr
+estimator: checkpoints/reacher/estimated_physics/next_frame_estimator.pth

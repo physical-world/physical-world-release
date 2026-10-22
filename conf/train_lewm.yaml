@@ -1,0 +1,22 @@
+defaults:
+  - assets: pusht_lewm
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+seed: 0
+inspection: false
+# Override the global batch; null retains the paper per-device batch times device count.
+batch_size: null
+num_workers: 6
+logging:
+  project: physical-lewm
+  mode: ${oc.env:WANDB_MODE,online}
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+  job:
+    chdir: false
+
+init_from: null
+resume_from: null

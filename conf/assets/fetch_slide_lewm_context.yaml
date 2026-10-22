@@ -1,0 +1,5 @@
+checkpoint: checkpoints/fetch_slide/lewm_context/next_frame_model.pt
+checkpoint_config: checkpoints/fetch_slide/lewm_context/next_frame_model_config.yaml
+manifest: data/fetch_slide/fetch_slide_friction_density_mass_xy_36k_v2.zarr
+decoder: checkpoints/fetch_slide/lewm_context/next_frame_decoder.pt
+model_config: conf/models/fetch_slide_lewm_context.yaml

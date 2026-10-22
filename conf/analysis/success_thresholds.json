@@ -1,0 +1,175 @@
+{
+  "environments": {
+    "reacher": {
+      "grid": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reference": 10,
+      "comparison": "<",
+      "unit": "degrees",
+      "results": {
+        "Vanilla": {
+          "method": "vanilla"
+        },
+        "Privileged Physics": {
+          "method": "privileged_physics"
+        },
+        "Context": {
+          "method": "context"
+        },
+        "Temporal Straightening": {
+          "method": "tswm"
+        },
+        "LeWM + Context": {
+          "method": "lewm_context"
+        },
+        "LeWM": {
+          "method": "lewm"
+        },
+        "Context Prefix": {
+          "method": "prefix_context"
+        },
+        "Long History": {
+          "method": "long_history"
+        },
+        "Estimated Physics": {
+          "method": "estimated_physics"
+        }
+      }
+    },
+    "fetch_slide": {
+      "grid": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0,
+        6.5,
+        7.0,
+        7.5,
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0
+      ],
+      "reference": 3,
+      "comparison": "<=",
+      "unit": "cm",
+      "results": {
+        "Vanilla": {
+          "method": "vanilla"
+        },
+        "Privileged Physics": {
+          "method": "privileged_physics"
+        },
+        "Context": {
+          "method": "context"
+        },
+        "Long History": {
+          "method": "long_history"
+        },
+        "Context Prefix": {
+          "method": "prefix_context"
+        },
+        "LeWM": {
+          "method": "lewm"
+        },
+        "Temporal Straightening": {
+          "method": "tswm"
+        },
+        "LeWM + Context": {
+          "method": "lewm_context"
+        },
+        "Estimated Physics": {
+          "method": "estimated_physics"
+        }
+      }
+    }
+  },
+  "styles": {
+    "Vanilla": [
+      "DINO-WM",
+      "#AAD2C8",
+      "o"
+    ],
+    "Temporal Straightening": [
+      "TS-WM",
+      "#FFE650",
+      "X"
+    ],
+    "Long History": [
+      "DINO-WM + Long History",
+      "#F78C6B",
+      "s"
+    ],
+    "Context Prefix": [
+      "DINO-WM + Context Prefix",
+      "#06D6A0",
+      "v"
+    ],
+    "Privileged Physics": [
+      "DINO-WM + Privileged Physics",
+      "#42A5F5",
+      "D"
+    ],
+    "Context": [
+      "DINO-WM + PhysiCal (Ours)",
+      "#FF647B",
+      "^"
+    ],
+    "LeWM": [
+      "LeWM",
+      "#DDBDFC",
+      "P"
+    ],
+    "LeWM + Context": [
+      "LeWM + PhysiCal (Ours)",
+      "#06D6A0",
+      "*"
+    ],
+    "Estimated Physics": [
+      "DINO-WM + Estimated Physics",
+      "#8E5B8A",
+      "h"
+    ]
+  }
+}
