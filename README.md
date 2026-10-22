@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-   <b>[ <a href="#">Paper</a> | <a href="https://huggingface.co/physical-world">Checkpoints &amp; Data</a> | <a href="https://physical-world.github.io/">Website</a> ]</b>
+   <b>[ <a href="https://arxiv.org/abs/2610.30125">Paper</a> | <a href="https://huggingface.co/physical-world">Checkpoints &amp; Data</a> | <a href="https://physical-world.github.io/">Website</a> ]</b>
 </p>
 
 <br>
