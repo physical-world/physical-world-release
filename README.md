@@ -48,14 +48,14 @@ export MUJOCO_GL=egl PYOPENGL_PLATFORM=egl SDL_VIDEODRIVER=dummy
 **Checkpoints:**
 Download pretrained checkpoints from [Hugging Face](https://huggingface.co/physical-world):
 ```bash
-pixi run hf download physical-world/PhysiCal-World --local-dir checkpoints
+pixi run hf download physical-world/physical-world-checkpoints-release --local-dir checkpoints
 ```
 
 ## Data
 
 Download pre-collected datasets from [Hugging Face](https://huggingface.co/physical-world) and extract:
 ```bash
-pixi run hf download physical-world/PhysiCal-datasets --repo-type dataset --local-dir data
+pixi run hf download physical-world/physical-world-dataset-release --repo-type dataset --local-dir data
 bash data/untar_from_hf.sh
 ```
 
